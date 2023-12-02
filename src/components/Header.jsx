@@ -1,5 +1,5 @@
 import logo from '../../public/logo.png';
-export default function Header() {
+export default function Header({ onModal }) {
   return (
     <div className="h-[60px] mx-auto">
       <div className="bg-[#44475A] rounded-b-[15px] h-[55px] flex justify-between items-center px-2">
@@ -24,6 +24,7 @@ export default function Header() {
             boxShadow:
               '0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -1px rgba(0, 0, 0, 0.06)',
           }}
+          onClick={onModal}
         >
           <p>Categorias</p>
         </button>
