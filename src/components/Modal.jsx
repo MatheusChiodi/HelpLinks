@@ -1,5 +1,5 @@
 import links from '../context/links';
-export default function Modal({ onModal }) {
+export default function Modal({ onModal, onCategory }) {
   return (
     <div
       className="w-[300px] h-[400px] absolute top-[15%] left-[50%] translate-x-[-50%] rounded-[20px] bg-white border"
@@ -10,9 +10,9 @@ export default function Modal({ onModal }) {
     >
       <div className="p-4">
         <div className="w-full flex justify-between border-b  border-gray-300  mb-4">
-          <h2 className="text-lg font-bold">Categorias</h2>
+          <h2 className="text-lg font-bold text-[#44475A]">Categorias</h2>
           <button
-            className="text-lg font-bold hover:text-[#FF5555] transition-all duration-500"
+            className="text-lg font-bold text-[#44475A] hover:text-[#FF5555] transition-all duration-500"
             onClick={onModal}
           >
             X
@@ -23,6 +23,7 @@ export default function Modal({ onModal }) {
           {links.map((link) => (
             <div
               key={link.id}
+              onClick={()=> onCategory(link.id)}
               className="w-full h-[50px] bg-[#F8F8F2] border rounded-[15px] flex justify-between items-center px-2 mb-3 cursor-pointer hover:brightness-[0.95] transition-all duration-500"
               style={{
                 boxShadow:

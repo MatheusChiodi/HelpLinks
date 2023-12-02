@@ -1,6 +1,8 @@
-export default function Link({ category,bgColor,textColor }) {
+export default function Link({ category, bgColor, textColor, onClick, key }) {
   return (
     <div
+      onClick={onClick}
+      key={key}
       className="w-[150px] h-[150px] rounded-[15px] flex justify-center items-center cursor-pointer hover:brightness-90 transition-all duration-500"
       style={{
         boxShadow:
