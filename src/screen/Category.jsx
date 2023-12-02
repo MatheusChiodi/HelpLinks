@@ -11,6 +11,7 @@ export default function Category({ onCategory }) {
           category={link.category}
           bgColor={link.bgColor}
           textColor={link.textColor}
+          img={link.img}
         />
       ))}
     </div>

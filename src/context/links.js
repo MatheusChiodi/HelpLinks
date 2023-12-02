@@ -4,6 +4,7 @@ const links = [
     category: 'Inteligência Artificial',
     bgColor: '#FFD1DC',
     textColor: '#282A36',
+    img: 'src/assets/InteligenciaArtificial.png',
     resources: [],
   },
   {
@@ -11,6 +12,7 @@ const links = [
     category: 'Desenvolvimento Web',
     bgColor: '#AEC6CF',
     textColor: '#282A36',
+    img: 'src/assets/DesenvolvimentoWeb.png',
     resources: [],
   },
   {
@@ -18,6 +20,7 @@ const links = [
     category: 'Desenvolvimento de Jogos',
     bgColor: '#98FB98',
     textColor: '#282A36',
+    img: 'src/assets/DesenvolvimentoDeJogos.png',
     resources: [],
   },
   {
@@ -25,6 +28,7 @@ const links = [
     category: 'Segurança da Informação',
     bgColor: '#E6E6FA',
     textColor: '#282A36',
+    img: 'src/assets/SegurancaDaInformacao.png',
     resources: [],
   },
   {
@@ -32,6 +36,7 @@ const links = [
     category: 'Realidade Virtual',
     bgColor: '#FFE5B4',
     textColor: '#282A36',
+    img: 'src/assets/RealidadeVirtual.png',
     resources: [],
   },
   {
@@ -39,6 +44,7 @@ const links = [
     category: 'Ciência de Dados',
     bgColor: '#FFFACD',
     textColor: '#282A36',
+    img: 'src/assets/CienciaDeDados.png',
     resources: [],
   },
   {
@@ -46,6 +52,7 @@ const links = [
     category: 'Desenvolvimento Mobile',
     bgColor: '#AFEEEE',
     textColor: '#282A36',
+    img: 'src/assets/DesenvolvimentoMobile.png',
     resources: [],
   },
   {
@@ -53,6 +60,7 @@ const links = [
     category: 'Desing',
     bgColor: '#FFA07A',
     textColor: '#282A36',
+    img: 'src/assets/Desing.png',
     resources: [],
   },
   {
@@ -60,6 +68,7 @@ const links = [
     category: 'Front-end',
     bgColor: '#F88379',
     textColor: '#282A36',
+    img: 'src/assets/FrontEnd.png',
     resources: [],
   },
   {
@@ -67,6 +76,7 @@ const links = [
     category: 'Back-end',
     bgColor: '#B2DFDB',
     textColor: '#282A36',
+    img: 'src/assets/BackEnd.png',
     resources: [],
   },
   {
@@ -74,6 +84,7 @@ const links = [
     category: 'Banco de Dados',
     bgColor: '#C8A2C8',
     textColor: '#282A36',
+    img: 'src/assets/BancoDeDados.png',
     resources: [],
   },
   {
@@ -81,6 +92,7 @@ const links = [
     category: 'Ferramentas',
     bgColor: '#FFFDD0',
     textColor: '#282A36',
+    img: 'src/assets/Ferramentas.png',
     resources: [],
   },
   {
@@ -88,6 +100,7 @@ const links = [
     category: 'Achar Trabalho',
     bgColor: '#89CFF0',
     textColor: '#282A36',
+    img: 'src/assets/AcharTrabalho.png',
     resources: [],
   },
   {
@@ -95,13 +108,15 @@ const links = [
     category: 'Comunidade',
     bgColor: '#FDBCB4',
     textColor: '#282A36',
+    img: 'src/assets/Comunidade.png',
     resources: [],
   },
   {
     id: 15,
     category: 'Mais Projetos Meus',
-    bgColor: '#FF5555',
+    bgColor: '#44475A',
     textColor: '#F8F8F2',
+    img: 'src/assets/logo.png',
     resources: [],
   },
 ];
