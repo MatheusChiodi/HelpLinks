@@ -17,7 +17,11 @@ export default function App() {
         <Links />
         <div className="h-[50px]"></div>
       </div>
-      {modalExist ? <Modal onModal={handleModal} /> : null}
+      {modalExist ? (
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
+          <Modal onModal={handleModal} />
+        </div>
+      ) : null}
     </div>
   );
 }
