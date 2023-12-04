@@ -47,7 +47,7 @@ export default function Links({ category, onCategory }) {
 
   return (
     <div className="links-container min-h-screen bg-gray-100 md:px-3 px-0 pt-[80px]">
-      <div className="category-header flex items-center justify-between p-5 bg-white shadow-lg rounded-md mb-5">
+      <div className="category-header flex items-center justify-between md:px-5 px-2 py-5 bg-white shadow-lg rounded-md mb-5">
         <button
           onClick={() => onCategory(null)}
           className="back-button hover:scale-105 transition-transform duration-500"
@@ -68,7 +68,7 @@ export default function Links({ category, onCategory }) {
             <path d="M19 12H5" />
           </svg>
         </button>
-        <p className="category-title text-2xl font-bold text-[#44475A]">
+        <p className="category-title md:text-2xl text-xl font-bold text-[#44475A]">
           <CategoryTitle categoryId={category} />
         </p>
       </div>

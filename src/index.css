@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F8F8F2;
+}
+
 /* Para navegadores baseados em WebKit como Chrome e Safari */
 .overflow-auto::-webkit-scrollbar {
   display: none; /* Esconde a barra de rolagem */
