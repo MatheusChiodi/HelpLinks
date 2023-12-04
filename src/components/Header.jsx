@@ -1,32 +1,25 @@
 import logo from '../../public/logo.png';
+
 export default function Header({ onModal }) {
   return (
-    <div className="h-[60px] mx-auto">
-      <div className="bg-[#44475A] rounded-b-[15px] h-[55px] flex justify-between items-center px-2">
-        <div className="w-[70%] flex">
-          <div className="border-r pr-3 ">
-            <img
-              src={logo}
-              alt="logo"
-              className="w-[40px] h-[40px] bg-[#F8F8F2] rounded-[50px]"
-            />
-          </div>
-
+    <div className="w-full fixed z-50">
+      <div className="bg-gray-800 rounded-b-lg h-[60px] flex items-center justify-between px-2">
+        <div className="flex items-center space-x-4">
+          <img
+            src={logo}
+            alt="logo"
+            className="h-10 w-10 rounded-full border border-gray-700 p-1"
+          />
           <input
-            className="w-[95%] h-[90%] bg-[#44475A] text-[#F8F8F2] text-[20px] outline-none mt-[5px] pl-3"
+            className="w-full h-10 bg-gray-800 text-white text-lg outline-none placeholder-gray-400 px-4 py-2 border-l"
             placeholder="Pesquise"
           />
         </div>
-
         <button
-          className="h-[60%] px-2 rounded-[15px] bg-[#FF5555] text-[#F8F8F2] text-[20px] outline-none hover:brightness-90 transition-all duration-500"
-          style={{
-            boxShadow:
-              '0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -1px rgba(0, 0, 0, 0.06)',
-          }}
+          className="h-[40px] bg-gray-500 hover:bg-[#FF5555] text-white text-lg px-2 rounded-lg shadow-md transition duration-300"
           onClick={onModal}
         >
-          <p>Categorias</p>
+          Categorias
         </button>
       </div>
     </div>

@@ -11,3 +11,49 @@
 .overflow-auto {
   scrollbar-width: none; /* Esconde a barra de rolagem */
 }
+
+@layer base {
+  .category-header {
+    @apply bg-blue-100 border-blue-300;
+  }
+
+  .back-button {
+    @apply bg-gray-500 hover:bg-[#FF5555] text-white p-2 rounded;
+  }
+
+  .category-title {
+    @apply text-2xl font-bold text-gray-500;
+  }
+
+  .resource-card {
+    @apply bg-white shadow-md rounded-lg p-4 m-4;
+  }
+
+  .resources-wrapper {
+    @apply flex flex-wrap justify-center;
+  }
+
+  .links-container {
+    @apply p-4;
+  }
+
+  .resource-card {
+    @apply bg-white rounded-lg shadow transition-all hover:shadow-xl p-5 mb-5;
+  }
+
+  .category-header {
+    @apply flex items-center justify-between p-5 bg-white shadow-lg rounded-md mb-5;
+  }
+
+  .back-button {
+    @apply hover:scale-105 transition-transform;
+  }
+
+  .category-title {
+    @apply text-2xl font-bold text-gray-800;
+  }
+
+  .links-container {
+    @apply min-h-screen bg-gray-100 py-10 px-5;
+  }
+}

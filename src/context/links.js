@@ -5,7 +5,8 @@ const links = [
     bgColor: '#FFD1DC',
     textColor: '#282A36',
     img: 'InteligenciaArtificial.png',
-    resources: [],
+    resources: [
+    ],
   },
   {
     id: 2,
@@ -838,38 +839,6 @@ const links = [
           },
         ],
       },
-      {
-        idTheme: 25,
-        name: 'Stencil',
-        text: 'Um compilador de componentes web que gera componentes web padrão.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Stencil - Official Documentation',
-            url: 'https://stenciljs.com/docs/introduction',
-          },
-          {
-            idLink: 2,
-            name: 'Udemy Stencil Courses',
-            url: 'https://www.udemy.com/topic/stenciljs/',
-          },
-          {
-            idLink: 3,
-            name: 'FreeCodeCamp - Introduction to Stencil',
-            url: 'https://www.freecodecamp.org/news/what-is-stenciljs-a-tutorial-on-building-web-components-with-stencil/',
-          },
-          {
-            idLink: 4,
-            name: 'Scrimba - Learn Stencil',
-            url: 'https://scrimba.com/learn/stencil',
-          },
-          {
-            idLink: 5,
-            name: 'Pluralsight - Stencil Courses',
-            url: 'https://www.pluralsight.com/search?q=stencil',
-          },
-        ],
-      },
     ],
   },
   {
@@ -878,7 +847,552 @@ const links = [
     bgColor: '#B2DFDB',
     textColor: '#282A36',
     img: 'BackEnd.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'Node.js',
+        text: 'É uma plataforma construída sobre o motor JavaScript do Google Chrome para facilmente construir aplicações de rede rápidas e escaláveis. Node.js usa um modelo de I/O direcionada a evento não bloqueante que o torna leve e eficiente, ideal para aplicações em tempo real com troca intensa de dados através de dispositivos distribuídos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Node.js - Official Documentation',
+            url: 'https://nodejs.org/en/docs/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Node.js',
+            url: 'https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Node.js Courses',
+            url: 'https://www.udemy.com/topic/nodejs/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Node.js',
+            url: 'https://www.codecademy.com/learn/learn-node-js',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Node.js Courses',
+            url: 'https://www.coursera.org/courses?query=node.js',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Express.js',
+        text: 'É um framework de aplicação web para Node.js. Ele foi projetado para criar aplicativos da web e APIs. Ele foi chamado de framework de servidor padrão de fato para Node.js.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Express.js - Official Documentation',
+            url: 'https://expressjs.com/en/4x/api.html',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Express.js',
+            url: 'https://www.freecodecamp.org/news/what-is-express-js/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Express.js Courses',
+            url: 'https://www.udemy.com/topic/express-js/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Express.js',
+            url: 'https://www.codecademy.com/learn/learn-express',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Express.js Courses',
+            url: 'https://www.coursera.org/courses?query=express.js',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'Deno',
+        text: 'É um tempo de execução JavaScript e TypeScript seguro para o back-end. Ele é construído com o mecanismo V8 do Google Chrome, Rust e Tokio.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Deno - Official Documentation',
+            url: 'https://deno.land/manual',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Deno',
+            url: 'https://www.freecodecamp.org/news/what-is-deno/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Deno Courses',
+            url: 'https://www.udemy.com/topic/deno/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Deno',
+            url: 'https://www.codecademy.com/learn/learn-deno',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Deno Courses',
+            url: 'https://www.coursera.org/courses?query=deno',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'NestJS',
+        text: 'É um framework back-end para a construção de aplicações web eficientes, confiáveis e escaláveis. Ele usa JavaScript e TypeScript e combina elementos de OOP (Programação Orientada a Objetos), FP (Programação Funcional) e FRP (Programação Reativa Funcional).',
+        links: [
+          {
+            idLink: 1,
+            name: 'NestJS - Official Documentation',
+            url: 'https://docs.nestjs.com/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to NestJS',
+            url: 'https://www.freecodecamp.org/news/what-is-nestjs-why-should-i-use-it/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy NestJS Courses',
+            url: 'https://www.udemy.com/topic/nestjs/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn NestJS',
+            url: 'https://www.codecademy.com/learn/learn-nestjs',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera NestJS Courses',
+            url: 'https://www.coursera.org/courses?query=nestjs',
+          },
+        ],
+      },
+      {
+        idTheme: 5,
+        name: 'AdonisJS',
+        text: 'É um framework back-end para Node.js que permite que os desenvolvedores escrevam aplicativos web robustos e funcionais com facilidade e velocidade.',
+        links: [
+          {
+            idLink: 1,
+            name: 'AdonisJS - Official Documentation',
+            url: 'https://docs.adonisjs.com/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to AdonisJS',
+            url: 'https://www.freecodecamp.org/news/what-is-adonisjs/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy AdonisJS Courses',
+            url: 'https://www.udemy.com/topic/adonisjs/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn AdonisJS',
+            url: 'https://www.codecademy.com/learn/learn-adonisjs',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera AdonisJS Courses',
+            url: 'https://www.coursera.org/courses?query=adonisjs',
+          },
+        ],
+      },
+      {
+        idTheme: 6,
+        name: 'Meteor',
+        text: 'É uma plataforma JavaScript de código aberto para criar aplicações web e móveis. O Meteor torna o desenvolvimento de software mais fácil com uma pilha de tecnologia simples, uma linguagem de programação unificada e uma comunidade de desenvolvedores ativa.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Meteor - Official Documentation',
+            url: 'https://docs.meteor.com/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Meteor',
+            url: 'https://www.freecodecamp.org/news/what-is-meteor-js-and-why-is-it-so-awesome/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Meteor Courses',
+            url: 'https://www.udemy.com/topic/meteor/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Meteor',
+            url: 'https://www.codecademy.com/learn/learn-meteor',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Meteor Courses',
+            url: 'https://www.coursera.org/courses?query=meteor',
+          },
+        ],
+      },
+      {
+        idTheme: 7,
+        name: 'FeathersJS',
+        text: 'É um framework back-end para a construção de aplicações web e APIs em tempo real. Ele funciona com qualquer banco de dados e é agnóstico de cliente, o que significa que funciona com qualquer cliente de front-end (React, Vue.js, Angular, etc.) e qualquer dispositivo (iOS, Android, TVs, etc.)',
+        links: [
+          {
+            idLink: 1,
+            name: 'FeathersJS - Official Documentation',
+            url: 'https://docs.feathersjs.com/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to FeathersJS',
+            url: 'https://www.freecodecamp.org/news/what-is-feathers-js/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy FeathersJS Courses',
+            url: 'https://www.udemy.com/topic/feathersjs/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn FeathersJS',
+            url: 'https://www.codecademy.com/learn/learn-feathersjs',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera FeathersJS Courses',
+            url: 'https://www.coursera.org/courses?query=feathersjs',
+          },
+        ],
+      },
+      {
+        idTheme: 8,
+        name: 'LoopBack',
+        text: 'É um framework Node.js altamente extensível para criar APIs e microsserviços.',
+        links: [
+          {
+            idLink: 1,
+            name: 'LoopBack - Official Documentation',
+            url: 'https://loopback.io/doc/en/lb4/index.html',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to LoopBack',
+            url: 'https://www.freecodecamp.org/news/what-is-loopback-js/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy LoopBack Courses',
+            url: 'https://www.udemy.com/topic/loopback-framework/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn LoopBack',
+            url: 'https://www.codecademy.com/learn/learn-loopback',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera LoopBack Courses',
+            url: 'https://www.coursera.org/courses?query=loopback',
+          },
+        ],
+      },
+      {
+        idTheme: 9,
+        name: 'Php',
+        text: 'É uma linguagem de script open source de uso geral, especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.',
+        links: [
+          {
+            idLink: 1,
+            name: 'PHP - Official Documentation',
+            url: 'https://www.php.net/manual/en/index.php',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to PHP',
+            url: 'https://www.freecodecamp.org/news/what-is-php-used-for/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy PHP Courses',
+            url: 'https://www.udemy.com/topic/php/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn PHP',
+            url: 'https://www.codecademy.com/learn/learn-php',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera PHP Courses',
+            url: 'https://www.coursera.org/courses?query=php',
+          },
+        ],
+      },
+      {
+        idTheme: 10,
+        name: 'Laravel',
+        text: 'É um framework PHP livre e open-source criado por Taylor B. Otwell para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller).',
+        links: [
+          {
+            idLink: 1,
+            name: 'Laravel - Official Documentation',
+            url: 'https://laravel.com/docs/8.x',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Laravel',
+            url: 'https://www.freecodecamp.org/news/what-is-laravel-used-for/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Laravel Courses',
+            url: 'https://www.udemy.com/topic/laravel/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Laravel',
+            url: 'https://www.codecademy.com/learn/learn-laravel',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Laravel Courses',
+            url: 'https://www.coursera.org/courses?query=laravel',
+          },
+        ],
+      },
+      {
+        idTheme: 11,
+        name: 'Symfony',
+        text: 'É um conjunto de componentes PHP reutilizáveis e um framework web para PHP. Ele foi publicado como software livre sob a licença MIT.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Symfony - Official Documentation',
+            url: 'https://symfony.com/doc/current/index.html',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Symfony',
+            url: 'https://www.freecodecamp.org/news/what-is-symfony-used-for/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Symfony Courses',
+            url: 'https://www.udemy.com/topic/symfony/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Symfony',
+            url: 'https://www.codecademy.com/learn/learn-symfony',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Symfony Courses',
+            url: 'https://www.coursera.org/courses?query=symfony',
+          },
+        ],
+      },
+      {
+        idTheme: 12,
+        name: 'CakePHP',
+        text: 'É um framework de aplicação web de código aberto. Ele segue o padrão de projeto Model-View-Controller (MVC) e é escrito na linguagem de programação PHP.',
+        links: [
+          {
+            idLink: 1,
+            name: 'CakePHP - Official Documentation',
+            url: 'https://book.cakephp.org/4/en/index.html',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to CakePHP',
+            url: 'https://www.freecodecamp.org/news/what-is-cakephp-used-for/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy CakePHP Courses',
+            url: 'https://www.udemy.com/topic/cakephp/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn CakePHP',
+            url: 'https://www.codecademy.com/learn/learn-cakephp',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera CakePHP Courses',
+            url: 'https://www.coursera.org/courses?query=cakephp',
+          },
+        ],
+      },
+      {
+        idTheme: 13,
+        name: 'Ruby',
+        text: 'É uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Ruby - Official Documentation',
+            url: 'https://www.ruby-lang.org/en/documentation/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Ruby',
+            url: 'https://www.freecodecamp.org/news/what-is-ruby-used-for/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Ruby Courses',
+            url: 'https://www.udemy.com/topic/ruby/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Ruby',
+            url: 'https://www.codecademy.com/learn/learn-ruby',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Ruby Courses',
+            url: 'https://www.coursera.org/courses?query=ruby',
+          },
+        ],
+      },
+      {
+        idTheme: 14,
+        name: 'Ruby on Rails',
+        text: 'É um framework web escrito em Ruby que segue o padrão MVC (model, view, controller). Ele provê estruturas para um banco de dados, um web service e páginas web.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Ruby on Rails - Official Documentation',
+            url: 'https://guides.rubyonrails.org/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Ruby on Rails',
+            url: 'https://www.freecodecamp.org/news/what-is-ruby-on-rails/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Ruby on Rails Courses',
+            url: 'https://www.udemy.com/topic/ruby-on-rails/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Ruby on Rails',
+            url: 'https://www.codecademy.com/learn/learn-rails',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Ruby on Rails Courses',
+            url: 'https://www.coursera.org/courses?query=ruby%20on%20rails',
+          },
+        ],
+      },
+      {
+        idTheme: 15,
+        name: 'Sinatra',
+        text: 'É uma biblioteca de software escrita em Ruby que fornece um domínio específico de linguagem para configurar aplicações web Rack.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Sinatra - Official Documentation',
+            url: 'http://sinatrarb.com/documentation.html',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Sinatra',
+            url: 'https://www.freecodecamp.org/news/what-is-sinatra/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Sinatra Courses',
+            url: 'https://www.udemy.com/topic/sinatra/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Sinatra',
+            url: 'https://www.codecademy.com/learn/learn-sinatra',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Sinatra Courses',
+            url: 'https://www.coursera.org/courses?query=sinatra',
+          },
+        ],
+      },
+      {
+        idTheme: 16,
+        name: 'Phoenix',
+        text: 'É um framework web escrito em Elixir que implementa o padrão de arquitetura Model-View-Controller (MVC).',
+        links: [
+          {
+            idLink: 1,
+            name: 'Phoenix - Official Documentation',
+            url: 'https://hexdocs.pm/phoenix/overview.html',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Phoenix',
+            url: 'https://www.freecodecamp.org/news/what-is-phoenix-framework/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Phoenix Courses',
+            url: 'https://www.udemy.com/topic/phoenix-framework/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Phoenix',
+            url: 'https://www.codecademy.com/learn/learn-phoenix',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Phoenix Courses',
+            url: 'https://www.coursera.org/courses?query=phoenix',
+          },
+        ],
+      },
+      {
+        idTheme: 17,
+        name: 'Django',
+        text: 'É um framework web Python de alto nível que incentiva o desenvolvimento rápido e um design limpo e pragmático.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Django - Official Documentation',
+            url: 'https://docs.djangoproject.com/en/3.1/',
+          },
+          {
+            idLink: 2,
+            name: 'FreeCodeCamp - Introduction to Django',
+            url: 'https://www.freecodecamp.org/news/what-is-django-and-why-is-it-so-popular/',
+          },
+          {
+            idLink: 3,
+            name: 'Udemy Django Courses',
+            url: 'https://www.udemy.com/topic/django/',
+          },
+          {
+            idLink: 4,
+            name: 'Codecademy - Learn Django',
+            url: 'https://www.codecademy.com/learn/learn-django',
+          },
+          {
+            idLink: 5,
+            name: 'Coursera Django Courses',
+            url: 'https://www.coursera.org/courses?query=django',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 11,

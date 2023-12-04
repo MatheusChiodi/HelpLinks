@@ -5,34 +5,28 @@ import Links from './screen/Links';
 import { useState } from 'react';
 
 export default function App() {
-  const [modalExist, setModalExist] = useState(false);
-  const handleModal = () => {
-    setModalExist(!modalExist);
-  };
+  const [uiState, setUiState] = useState({ modalExist: false, category: null });
 
-  const [category, setCategory] = useState(false);
-  const handleCategory = (id) => {
-    setCategory(id);
-    setModalExist(false);
-  };
+  const toggleModal = () =>
+    setUiState({ ...uiState, modalExist: !uiState.modalExist });
+  const changeCategory = (id) =>
+    setUiState({ modalExist: false, category: id });
 
   return (
     <div className="w-full h-screen bg-[#F8F8F2] pb-3">
-      <Header onModal={handleModal} />
-      {category ? (
-        <Links category={category} onCategory={handleCategory}/>
+      <Header onModal={toggleModal} />
+      {uiState.category ? (
+        <Links category={uiState.category} onCategory={changeCategory} />
       ) : (
-        <div className="max-w-4xl mx-auto overflow-auto h-[90%] pt-4">
-          <Category onCategory={handleCategory} />
-          <div className="h-[50px]"></div>
+        <div className="max-w-4xl mx-auto overflow-auto pt-[80px] pb-[20px]">
+          <Category onCategory={changeCategory} />
         </div>
       )}
-
-      {modalExist ? (
+      {uiState.modalExist && (
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
-          <Modal onModal={handleModal} onCategory={handleCategory} />
+          <Modal onModal={toggleModal} onCategory={changeCategory} />
         </div>
-      ) : null}
+      )}
     </div>
   );
 }
