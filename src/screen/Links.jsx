@@ -46,7 +46,7 @@ export default function Links({ category, onCategory }) {
   const selectedLinks = links.filter((link) => link.id === category);
 
   return (
-    <div className="links-container min-h-screen bg-gray-100 px-3 pt-[80px]">
+    <div className="links-container min-h-screen bg-gray-100 md:px-3 px-0 pt-[80px]">
       <div className="category-header flex items-center justify-between p-5 bg-white shadow-lg rounded-md mb-5">
         <button
           onClick={() => onCategory(null)}
