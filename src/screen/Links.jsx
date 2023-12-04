@@ -28,7 +28,7 @@ const Resource = ({ resource }) => {
         {resource.links.map((link) => (
           <li key={link.idLink}>
             <a
-              href={link.link}
+              href={link.url}
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-[#FF5555] transition-colors duration-500 cursor-pointer"
