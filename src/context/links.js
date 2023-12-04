@@ -720,6 +720,56 @@ const links = [
             name: 'Character Design: 10 Tips to Create Believable Characters',
             url: 'https://www.gamedesigning.org/career/character-design/',
           },
+          {
+            idLink: 3,
+            name: 'Fundamentos do Desenvolvimento de Personagens',
+            url: 'https://en.wikipedia.org/wiki/Character_development',
+          },
+          {
+            idLink: 4,
+            name: 'Design de Personagens em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Character_design',
+          },
+          {
+            idLink: 5,
+            name: 'Narrativa e Construção de Personagens',
+            url: 'https://en.wikipedia.org/wiki/Character_arc',
+          },
+          {
+            idLink: 6,
+            name: 'Psicologia de Personagens e Profundidade Emocional',
+            url: 'https://en.wikipedia.org/wiki/Psychology_of_characters',
+          },
+          {
+            idLink: 7,
+            name: 'Criação de Diálogos e Personalidade',
+            url: 'https://en.wikipedia.org/wiki/Dialogue',
+          },
+          {
+            idLink: 8,
+            name: 'Desenvolvimento Visual de Personagens',
+            url: 'https://en.wikipedia.org/wiki/Visual_storytelling',
+          },
+          {
+            idLink: 9,
+            name: 'Animação de Personagens e Expressões',
+            url: 'https://en.wikipedia.org/wiki/Character_animation',
+          },
+          {
+            idLink: 10,
+            name: 'Arquétipos e Diversidade de Personagens',
+            url: 'https://en.wikipedia.org/wiki/Archetype',
+          },
+          {
+            idLink: 11,
+            name: 'Backstory e História do Personagem',
+            url: 'https://en.wikipedia.org/wiki/Backstory',
+          },
+          {
+            idLink: 12,
+            name: 'Personagens e Interação com o Mundo do Jogo',
+            url: 'https://en.wikipedia.org/wiki/Game_world',
+          },
         ],
       },
       {
@@ -736,6 +786,56 @@ const links = [
             idLink: 2,
             name: 'Level Design Tutorial for Beginners',
             url: 'https://www.youtube.com/watch?v=HVB6UVcb3f8',
+          },
+          {
+            idLink: 3,
+            name: 'Introdução ao Design de Níveis',
+            url: 'https://en.wikipedia.org/wiki/Level_design',
+          },
+          {
+            idLink: 4,
+            name: 'Princípios de Arquitetura em Design de Níveis',
+            url: 'https://en.wikipedia.org/wiki/Level_design#Architecture',
+          },
+          {
+            idLink: 5,
+            name: 'Criação de Ambientes Imersivos',
+            url: 'https://en.wikipedia.org/wiki/Virtual_world',
+          },
+          {
+            idLink: 6,
+            name: 'Design de Níveis para Diferentes Gêneros de Jogos',
+            url: 'https://en.wikipedia.org/wiki/Video_game_genre',
+          },
+          {
+            idLink: 7,
+            name: 'Equilíbrio e Progressão no Design de Níveis',
+            url: 'https://en.wikipedia.org/wiki/Game_balance',
+          },
+          {
+            idLink: 8,
+            name: 'Narrativa e Storytelling através do Design de Níveis',
+            url: 'https://en.wikipedia.org/wiki/Environmental_storytelling',
+          },
+          {
+            idLink: 9,
+            name: 'Desafios e Obstáculos em Design de Níveis',
+            url: 'https://en.wikipedia.org/wiki/Obstacle',
+          },
+          {
+            idLink: 10,
+            name: 'Uso de Iluminação e Som no Design de Níveis',
+            url: 'https://en.wikipedia.org/wiki/Lighting',
+          },
+          {
+            idLink: 11,
+            name: 'Técnicas de Mapeamento e Modelagem 3D',
+            url: 'https://en.wikipedia.org/wiki/3D_modeling',
+          },
+          {
+            idLink: 12,
+            name: 'Ferramentas de Design de Níveis e Software',
+            url: 'https://en.wikipedia.org/wiki/Game_editor',
           },
         ],
       },
@@ -754,6 +854,56 @@ const links = [
             name: 'Game AI Pro',
             url: 'https://www.gameaipro.com/',
           },
+          {
+            idLink: 3,
+            name: 'Fundamentos da IA em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Artificial_intelligence_in_video_games',
+          },
+          {
+            idLink: 4,
+            name: 'Desenvolvimento de NPCs Realistas',
+            url: 'https://en.wikipedia.org/wiki/Non-player_character#Artificial_intelligence',
+          },
+          {
+            idLink: 5,
+            name: 'Sistemas de Comportamento e Tomada de Decisão para NPCs',
+            url: 'https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control)',
+          },
+          {
+            idLink: 6,
+            name: 'IA de NPCs em Jogos de Mundo Aberto',
+            url: 'https://en.wikipedia.org/wiki/Open_world',
+          },
+          {
+            idLink: 7,
+            name: 'Pathfinding e Navegação de NPCs',
+            url: 'https://en.wikipedia.org/wiki/Pathfinding',
+          },
+          {
+            idLink: 8,
+            name: 'Interação Dinâmica de NPCs com o Ambiente do Jogo',
+            url: 'https://en.wikipedia.org/wiki/Game_physics',
+          },
+          {
+            idLink: 9,
+            name: 'Simulação de Multidões e Comportamento de Grupo em NPCs',
+            url: 'https://en.wikipedia.org/wiki/Crowd_simulation',
+          },
+          {
+            idLink: 10,
+            name: 'Aprendizado de Máquina e IA Adaptativa em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning',
+          },
+          {
+            idLink: 11,
+            name: 'Modelagem de Personalidade e Emoções em NPCs',
+            url: 'https://en.wikipedia.org/wiki/Artificial_emotion',
+          },
+          {
+            idLink: 12,
+            name: 'Desafios e Tendências Futuras da IA em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Artificial_intelligence_in_video_games#Challenges_and_future_directions',
+          },
         ],
       },
       {
@@ -771,6 +921,56 @@ const links = [
             name: 'Game Development Tutorial for Beginners - Full Course',
             url: 'https://www.youtube.com/watch?v=Au8oX5pu5u4',
           },
+          {
+            idLink: 3,
+            name: 'Fundamentos do Desenvolvimento Frontend em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Front_and_back_ends#Front-end',
+          },
+          {
+            idLink: 4,
+            name: 'Técnicas de Renderização e Gráficos em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Rendering_(computer_graphics)',
+          },
+          {
+            idLink: 5,
+            name: 'Desenvolvimento de Interface de Usuário em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Game_interface_design',
+          },
+          {
+            idLink: 6,
+            name: 'Fundamentos do Desenvolvimento Backend em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Front_and_back_ends#Back-end',
+          },
+          {
+            idLink: 7,
+            name: 'Servidores e Networking em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Game_server',
+          },
+          {
+            idLink: 8,
+            name: 'Bancos de Dados e Armazenamento de Dados em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Database',
+          },
+          {
+            idLink: 9,
+            name: 'Integração de Sistemas Multiplayer e Lógica de Jogo',
+            url: 'https://en.wikipedia.org/wiki/Multiplayer_video_game',
+          },
+          {
+            idLink: 10,
+            name: 'Segurança e Proteção de Dados em Jogos Online',
+            url: 'https://en.wikipedia.org/wiki/Computer_security',
+          },
+          {
+            idLink: 11,
+            name: 'Desempenho e Otimização em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Video_game_optimization',
+          },
+          {
+            idLink: 12,
+            name: 'Ferramentas e Frameworks para Desenvolvimento de Jogos',
+            url: 'https://en.wikipedia.org/wiki/Game_engine',
+          },
         ],
       },
       {
@@ -782,6 +982,61 @@ const links = [
             idLink: 1,
             name: 'Game Testing Tutorial for Beginners',
             url: 'https://www.youtube.com/watch?v=OW1A4XFRuyc',
+          },
+          {
+            idLink: 2,
+            name: 'Visão Geral do Teste de Jogos',
+            url: 'https://en.wikipedia.org/wiki/Game_testing',
+          },
+          {
+            idLink: 3,
+            name: 'Teste de Funcionalidade em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Software_testing#Functional_testing',
+          },
+          {
+            idLink: 4,
+            name: 'Teste de Usabilidade em Jogos',
+            url: 'https://en.wikipedia.org/wiki/Usability_testing',
+          },
+          {
+            idLink: 5,
+            name: 'Teste de Interface e Experiência do Usuário',
+            url: 'https://en.wikipedia.org/wiki/User_interface_testing',
+          },
+          {
+            idLink: 6,
+            name: 'Teste de Performance e Otimização de Jogos',
+            url: 'https://en.wikipedia.org/wiki/Software_performance_testing',
+          },
+          {
+            idLink: 7,
+            name: 'Teste de Compatibilidade e Jogos Multiplataforma',
+            url: 'https://en.wikipedia.org/wiki/Compatibility_testing',
+          },
+          {
+            idLink: 8,
+            name: 'Teste de Segurança em Jogos Online',
+            url: 'https://en.wikipedia.org/wiki/Security_testing',
+          },
+          {
+            idLink: 9,
+            name: 'Teste de Regressão em Atualizações de Jogos',
+            url: 'https://en.wikipedia.org/wiki/Regression_testing',
+          },
+          {
+            idLink: 10,
+            name: 'Teste de Inteligência Artificial e NPCs',
+            url: 'https://en.wikipedia.org/wiki/AI_testing',
+          },
+          {
+            idLink: 11,
+            name: 'Teste de Carga em Ambientes de Jogos Multiplayer',
+            url: 'https://en.wikipedia.org/wiki/Load_testing',
+          },
+          {
+            idLink: 12,
+            name: 'Ferramentas e Técnicas para Teste de Jogos',
+            url: 'https://en.wikipedia.org/wiki/Game_testing#Tools_and_techniques',
           },
         ],
       },
