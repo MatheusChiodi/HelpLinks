@@ -3066,6 +3066,31 @@ const links = [
             name: 'Coursera Node.js Courses',
             url: 'https://www.coursera.org/courses?query=node.js',
           },
+          {
+            idLink: 6,
+            name: 'Node.js Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/nodejs/',
+          },
+          {
+            idLink: 7,
+            name: 'Learn Node.js | Node.js',
+            url: 'https://nodejs.org/en/learn',
+          },
+          {
+            idLink: 8,
+            name: 'Introduction to Node.js | Node.js',
+            url: 'https://nodejs.org/en/learn',
+          },
+          {
+            idLink: 9,
+            name: 'NodeJS Tutorial | Learn NodeJS - GeeksforGeeks',
+            url: 'https://www.geeksforgeeks.org/nodejs-tutorials/',
+          },
+          {
+            idLink: 10,
+            name: 'Build Node.js Apps with Visual Studio Code',
+            url: 'https://code.visualstudio.com/docs/nodejs/nodejs-tutorial',
+          },
         ],
       },
       {
@@ -3620,7 +3645,89 @@ const links = [
     bgColor: '#44475A',
     textColor: '#F8F8F2',
     img: 'logo.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'React Native',
+        text: 'É uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e IOS de forma nativa.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Futuro Garantido',
+            url: 'https://play.google.com/store/apps/details?id=com.matheuschiodi.FuturoGarantido',
+          },
+          {
+            idLink: 2,
+            name: 'Diversão em Dupla: Jogos para Dois',
+            url: 'https://play.google.com/store/apps/details?id=com.matheuschiodi.dualgame',
+          },
+          {
+            idLink: 3,
+            name: 'Pomodoro Prime Timer',
+            url: 'https://play.google.com/store/apps/details?id=com.matheuschiodi.PomodoroPrimeTimer',
+          },
+          {
+            idLink: 4,
+            name: 'Training Record',
+            url: 'https://play.google.com/store/apps/details?id=com.matheuschiodi.TrainingRecord',
+          },
+          {
+            idLink: 5,
+            name: 'Gerenciador de cartões',
+            url: 'https://play.google.com/store/apps/details?id=com.matheuschiodi.Invest',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'React Js',
+        text: 'É uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicações de página única ou mobile.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Projeto Windows',
+            url: 'https://matheuschiodi.github.io/windows/',
+          },
+          {
+            idLink: 2,
+            name: 'Projeto Loja',
+            url: 'https://matheuschiodi.github.io/Project-Shop/',
+          },
+          {
+            idLink: 3,
+            name: 'Projeto Jogo da Velha',
+            url: 'https://matheuschiodi.github.io/tic-tac-toe/',
+          },
+          {
+            idLink: 4,
+            name: 'NLW Spacetime',
+            url: 'https://matheuschiodi.github.io/NLW-Spacetime-not-Prisma/',
+          },
+          {
+            idLink: 5,
+            name: 'Training Record versão web',
+            url: 'https://matheuschiodi.github.io/Training/',
+          },
+          {
+            idLink: 6,
+            name: 'Novo Spotify beta',
+            url: 'https://matheuschiodi.github.io/spotify/',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Html, Css e Javascript',
+        text: 'São as três linguagens que todo desenvolvedor web precisa conhecer.',
+        links: [
+          {
+            idLink: 1,
+            name: 'TCC Parque Vivo',
+            url: 'https://github.com/MatheusChiodi/TccParqueVivoV1',
+          },
+        ],
+      },
+    ],
   },
 ];
 
