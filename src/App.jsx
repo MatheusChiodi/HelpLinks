@@ -8,6 +8,7 @@ import ReturnHome from './components/ReturnHome';
 
 export default function App() {
   const [uiState, setUiState] = useState({ modalExist: false, category: null });
+  const [search, setSearch] = useState('');
 
   const toggleModal = () =>
     setUiState({ ...uiState, modalExist: !uiState.modalExist });
@@ -17,15 +18,23 @@ export default function App() {
   return (
     <>
       <div className="w-full pb-3">
-        <Header onModal={toggleModal} />
+        <Header
+          onModal={toggleModal}
+          category={uiState.category}
+          onSearch={setSearch}
+        />
         {uiState.category ? (
           <>
-            <Links category={uiState.category} onCategory={changeCategory} />
-            <ReturnHome onCategory={changeCategory}/>
+            <Links
+              category={uiState.category}
+              onCategory={changeCategory}
+              search={search}
+            />
+            <ReturnHome onCategory={changeCategory} />
           </>
         ) : (
           <div className="max-w-4xl mx-auto overflow-auto pt-[80px] pb-[20px]">
-            <Category onCategory={changeCategory} />
+            <Category onCategory={changeCategory} search={search} />
           </div>
         )}
 

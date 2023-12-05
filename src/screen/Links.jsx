@@ -42,7 +42,7 @@ const Resource = ({ resource }) => {
   );
 };
 
-export default function Links({ category, onCategory }) {
+export default function Links({ category, onCategory, search }) {
   const selectedLinks = links.filter((link) => link.id === category);
 
   return (
@@ -74,9 +74,13 @@ export default function Links({ category, onCategory }) {
       </div>
       {selectedLinks.map((link) => (
         <div key={link.id} className="resources-wrapper">
-          {link.resources.map((resource) => (
-            <Resource key={resource.id} resource={resource} />
-          ))}
+          {link.resources
+            .filter((resource) =>
+              resource.name.toLowerCase().includes(search?.toLowerCase() ?? '')
+            )
+            .map((resource) => (
+              <Resource key={resource.id} resource={resource} />
+            ))}
         </div>
       ))}
     </div>
