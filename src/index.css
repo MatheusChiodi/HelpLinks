@@ -35,6 +35,24 @@ body {
   duration: 0.5s;
 }
 
+.buttonReturnHome {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  background-color: #6b7280;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.buttonReturnHome:hover {
+  background-color: #ff5555;
+  transition: background-color 0.5s ease;
+  duration: 0.5s;
+}
+
 @layer base {
   .category-header {
     @apply bg-blue-100 border-blue-300;

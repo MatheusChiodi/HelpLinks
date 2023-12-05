@@ -4,6 +4,7 @@ import Category from './screen/Category';
 import Links from './screen/Links';
 import { useState } from 'react';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import ReturnHome from './components/ReturnHome';
 
 export default function App() {
   const [uiState, setUiState] = useState({ modalExist: false, category: null });
@@ -18,7 +19,10 @@ export default function App() {
       <div className="w-full pb-3">
         <Header onModal={toggleModal} />
         {uiState.category ? (
-          <Links category={uiState.category} onCategory={changeCategory} />
+          <>
+            <Links category={uiState.category} onCategory={changeCategory} />
+            <ReturnHome onCategory={changeCategory}/>
+          </>
         ) : (
           <div className="max-w-4xl mx-auto overflow-auto pt-[80px] pb-[20px]">
             <Category onCategory={changeCategory} />
