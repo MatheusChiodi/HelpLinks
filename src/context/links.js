@@ -1824,7 +1824,296 @@ const links = [
     bgColor: '#AFEEEE',
     textColor: '#282A36',
     img: 'DesenvolvimentoMobile.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'Introdução ao Desenvolvimento Mobile',
+        text: 'O desenvolvimento mobile envolve a criação de software para dispositivos móveis. Isso inclui entender os diferentes sistemas operacionais, linguagens de programação e frameworks.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Começando com Desenvolvimento Mobile',
+            url: 'https://www.androidauthority.com/developing-for-android-vs-ios-697304/',
+          },
+          {
+            idLink: 2,
+            name: 'Plataformas de Desenvolvimento Mobile',
+            url: 'https://en.wikipedia.org/wiki/Mobile_app_development',
+          },
+          {
+            idLink: 3,
+            name: 'Ferramentas e Ambientes de Desenvolvimento',
+            url: 'https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/',
+          },
+          {
+            idLink: 4,
+            name: 'Visão Geral do Desenvolvimento de Aplicações Móveis',
+            url: 'https://en.wikipedia.org/wiki/Mobile_app_development',
+          },
+          {
+            idLink: 5,
+            name: 'Plataformas de Desenvolvimento Mobile: Android e iOS',
+            url: 'https://en.wikipedia.org/wiki/Mobile_operating_system',
+          },
+          {
+            idLink: 6,
+            name: 'Linguagens de Programação para Mobile: Java, Swift, Kotlin',
+            url: 'https://en.wikipedia.org/wiki/Mobile_app_development#Programming_languages',
+          },
+          {
+            idLink: 7,
+            name: 'Desenvolvimento Cross-Platform: React Native, Flutter',
+            url: 'https://en.wikipedia.org/wiki/Mobile_app_development#Cross-platform_development',
+          },
+          {
+            idLink: 8,
+            name: 'Design de Interface de Usuário para Aplicações Móveis',
+            url: 'https://en.wikipedia.org/wiki/User_interface_design#Mobile_interface_design',
+          },
+          {
+            idLink: 9,
+            name: 'Gestão de Dados e Armazenamento em Dispositivos Móveis',
+            url: 'https://en.wikipedia.org/wiki/Mobile_database',
+          },
+          {
+            idLink: 10,
+            name: 'Integração com APIs e Serviços Web',
+            url: 'https://en.wikipedia.org/wiki/Web_API',
+          },
+          {
+            idLink: 11,
+            name: 'Segurança em Aplicações Móveis',
+            url: 'https://en.wikipedia.org/wiki/Mobile_security',
+          },
+          {
+            idLink: 12,
+            name: 'Teste e Depuração de Aplicações Móveis',
+            url: 'https://en.wikipedia.org/wiki/Mobile_application_testing',
+          },
+          {
+            idLink: 13,
+            name: 'Distribuição e Monetização de Aplicações Móveis',
+            url: 'https://en.wikipedia.org/wiki/Mobile_app#Distribution',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Android Development',
+        text: 'Desenvolvimento para Android envolve usar linguagens como Java ou Kotlin. Compreende a criação de aplicativos para o sistema operacional Android, usando ferramentas como Android Studio.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Guia Oficial de Desenvolvimento Android',
+            url: 'https://developer.android.com/guide',
+          },
+          {
+            idLink: 2,
+            name: 'Kotlin para Android',
+            url: 'https://kotlinlang.org/docs/android-overview.html',
+          },
+          {
+            idLink: 3,
+            name: 'Android Studio e Ferramentas',
+            url: 'https://developer.android.com/studio',
+          },
+          {
+            idLink: 4,
+            name: 'Introdução ao Desenvolvimento Android',
+            url: 'https://en.wikipedia.org/wiki/Android_software_development',
+          },
+          {
+            idLink: 5,
+            name: 'Android Studio e SDK Android',
+            url: 'https://en.wikipedia.org/wiki/Android_Studio',
+          },
+          {
+            idLink: 6,
+            name: 'Linguagens de Programação para Android: Java e Kotlin',
+            url: 'https://en.wikipedia.org/wiki/Android_software_development#Programming_languages',
+          },
+          {
+            idLink: 7,
+            name: 'Componentes da Interface de Usuário no Android',
+            url: 'https://en.wikipedia.org/wiki/Android_(operating_system)#User_interface',
+          },
+          {
+            idLink: 8,
+            name: 'Gestão de Dados e Armazenamento no Android',
+            url: 'https://en.wikipedia.org/wiki/Android_(operating_system)#Storage',
+          },
+          {
+            idLink: 9,
+            name: 'Integração com APIs e Serviços Google',
+            url: 'https://en.wikipedia.org/wiki/Google_APIs',
+          },
+          {
+            idLink: 10,
+            name: 'Segurança e Permissões no Android',
+            url: 'https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy',
+          },
+          {
+            idLink: 11,
+            name: 'Otimização de Performance e Teste de Aplicações Android',
+            url: 'https://en.wikipedia.org/wiki/Android_(operating_system)#Performance',
+          },
+          {
+            idLink: 12,
+            name: 'Publicação e Distribuição de Aplicações no Google Play',
+            url: 'https://en.wikipedia.org/wiki/Google_Play',
+          },
+          {
+            idLink: 13,
+            name: 'Tendências e Inovações no Desenvolvimento Android',
+            url: 'https://en.wikipedia.org/wiki/Android_(operating_system)#History',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'iOS Development',
+        text: 'Desenvolvimento para iOS envolve o uso de Swift ou Objective-C. Inclui a criação de aplicativos para iPhones e iPads, utilizando ferramentas como Xcode.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Desenvolvimento iOS',
+            url: 'https://developer.apple.com/develop/',
+          },
+          {
+            idLink: 2,
+            name: 'Swift para Desenvolvedores iOS',
+            url: 'https://www.apple.com/swift/',
+          },
+          {
+            idLink: 3,
+            name: 'Xcode para Desenvolvedores iOS',
+            url: 'https://developer.apple.com/xcode/',
+          },
+          {
+            idLink: 4,
+            name: 'Introdução ao Desenvolvimento iOS',
+            url: 'https://en.wikipedia.org/wiki/IOS_app_development',
+          },
+          {
+            idLink: 5,
+            name: 'Xcode e Ambiente de Desenvolvimento iOS',
+            url: 'https://en.wikipedia.org/wiki/Xcode',
+          },
+          {
+            idLink: 6,
+            name: 'Swift - Linguagem de Programação para iOS',
+            url: 'https://en.wikipedia.org/wiki/Swift_(programming_language)',
+          },
+          {
+            idLink: 7,
+            name: 'Objective-C em Desenvolvimento iOS',
+            url: 'https://en.wikipedia.org/wiki/Objective-C',
+          },
+          {
+            idLink: 8,
+            name: 'Design de Interface e Experiência do Usuário no iOS',
+            url: 'https://en.wikipedia.org/wiki/User_interface_design',
+          },
+          {
+            idLink: 9,
+            name: 'Gerenciamento de Dados e Armazenamento no iOS',
+            url: 'https://en.wikipedia.org/wiki/IOS#Storage_and_file_system',
+          },
+          {
+            idLink: 10,
+            name: 'Integração com APIs e Serviços Apple',
+            url: 'https://en.wikipedia.org/wiki/API',
+          },
+          {
+            idLink: 11,
+            name: 'Segurança e Privacidade em Aplicações iOS',
+            url: 'https://en.wikipedia.org/wiki/IOS_security',
+          },
+          {
+            idLink: 12,
+            name: 'Teste e Depuração de Aplicações iOS',
+            url: 'https://en.wikipedia.org/wiki/Xcode#Features',
+          },
+          {
+            idLink: 13,
+            name: 'Distribuição e Monetização de Aplicações na App Store',
+            url: 'https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS)',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Desenvolvimento Cross-Platform',
+        text: 'Desenvolvimento Cross-Platform permite criar aplicativos que funcionam tanto em Android quanto em iOS. Ferramentas como React Native e Flutter são usadas para este propósito.',
+        links: [
+          {
+            idLink: 1,
+            name: 'React Native para Desenvolvimento Móvel',
+            url: 'https://reactnative.dev/',
+          },
+          {
+            idLink: 2,
+            name: 'Introdução ao Flutter',
+            url: 'https://flutter.dev/',
+          },
+          {
+            idLink: 3,
+            name: 'Comparativo entre React Native e Flutter',
+            url: 'https://www.mindinventory.com/blog/flutter-vs-react-native/',
+          },
+          {
+            idLink: 4,
+            name: 'Visão Geral do Desenvolvimento Cross-Platform',
+            url: 'https://en.wikipedia.org/wiki/Cross-platform_software',
+          },
+          {
+            idLink: 5,
+            name: 'React Native para Desenvolvimento Multiplataforma',
+            url: 'https://en.wikipedia.org/wiki/React_Native',
+          },
+          {
+            idLink: 6,
+            name: 'Flutter - Framework da Google para Interfaces Nativas',
+            url: 'https://en.wikipedia.org/wiki/Flutter_(software)',
+          },
+          {
+            idLink: 7,
+            name: 'Xamarin para Desenvolvimento de Aplicações Móveis',
+            url: 'https://en.wikipedia.org/wiki/Xamarin',
+          },
+          {
+            idLink: 8,
+            name: 'Apache Cordova para Aplicações Web Mobile',
+            url: 'https://en.wikipedia.org/wiki/Apache_Cordova',
+          },
+          {
+            idLink: 9,
+            name: 'Unity para Jogos Multiplataforma',
+            url: 'https://en.wikipedia.org/wiki/Unity_(game_engine)',
+          },
+          {
+            idLink: 10,
+            name: 'Desafios e Considerações no Desenvolvimento Cross-Platform',
+            url: 'https://en.wikipedia.org/wiki/Cross-platform_software#Challenges',
+          },
+          {
+            idLink: 11,
+            name: 'Teste e Otimização para Diversas Plataformas',
+            url: 'https://en.wikipedia.org/wiki/Software_testing',
+          },
+          {
+            idLink: 12,
+            name: 'Gestão de Dependências e Pacotes em Projetos Multiplataforma',
+            url: 'https://en.wikipedia.org/wiki/Package_manager',
+          },
+          {
+            idLink: 13,
+            name: 'Tendências Futuras em Desenvolvimento Cross-Platform',
+            url: 'https://en.wikipedia.org/wiki/Cross-platform_software#Future',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 8,
@@ -1871,6 +2160,31 @@ const links = [
             name: 'Coursera',
             url: 'https://www.coursera.org/courses?query=html',
           },
+          {
+            idLink: 6,
+            name: 'HTML: HyperText Markup Language | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+          },
+          {
+            idLink: 7,
+            name: 'HTML Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/html/',
+          },
+          {
+            idLink: 8,
+            name: 'HTML basics - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics',
+          },
+          {
+            idLink: 9,
+            name: 'Getting started with HTML - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started',
+          },
+          {
+            idLink: 10,
+            name: 'HTML Basic - W3Schools',
+            url: 'https://www.w3schools.com/html/html_basic.asp',
+          },
         ],
       },
       {
@@ -1902,6 +2216,31 @@ const links = [
             idLink: 5,
             name: 'Codecademy',
             url: 'https://www.codecademy.com/learn/learn-css',
+          },
+          {
+            idLink: 6,
+            name: 'CSS Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/css/',
+          },
+          {
+            idLink: 7,
+            name: 'CSS Tutorials - CSS: Cascading Style Sheets | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS',
+          },
+          {
+            idLink: 8,
+            name: 'Getting started with CSS - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps',
+          },
+          {
+            idLink: 9,
+            name: 'CSS basics - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics',
+          },
+          {
+            idLink: 10,
+            name: 'CSS Tutorial',
+            url: 'https://www.tutorialspoint.com/css/index.htm',
           },
         ],
       },
@@ -1935,6 +2274,31 @@ const links = [
             name: 'FreeCodeCamp',
             url: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
           },
+          {
+            idLink: 6,
+            name: 'JavaScript Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/js/',
+          },
+          {
+            idLink: 7,
+            name: 'The Modern JavaScript Tutorial',
+            url: 'https://javascript.info/',
+          },
+          {
+            idLink: 8,
+            name: 'JavaScript basics - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript',
+          },
+          {
+            idLink: 9,
+            name: 'What is JavaScript? - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript',
+          },
+          {
+            idLink: 10,
+            name: 'Introduction - JavaScript | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction',
+          },
         ],
       },
       {
@@ -1966,6 +2330,31 @@ const links = [
             idLink: 5,
             name: 'Coursera TypeScript Courses',
             url: 'https://www.coursera.org/courses?query=typescript',
+          },
+          {
+            idLink: 6,
+            name: 'TypeScript: The starting point for learning TypeScript',
+            url: 'https://www.typescriptlang.org/docs/',
+          },
+          {
+            idLink: 7,
+            name: 'TypeScript Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/typescript/',
+          },
+          {
+            idLink: 8,
+            name: 'TypeScript tutorial with Visual Studio Code',
+            url: 'https://code.visualstudio.com/docs/typescript/typescript-tutorial',
+          },
+          {
+            idLink: 9,
+            name: 'Documentation - TypeScript for JavaScript Programmers',
+            url: 'https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html',
+          },
+          {
+            idLink: 10,
+            name: 'Get started with TypeScript - Training | Microsoft Learn',
+            url: 'https://learn.microsoft.com/en-us/training/modules/typescript-get-started/',
           },
         ],
       },
@@ -1999,6 +2388,31 @@ const links = [
             name: 'Scrimba - Learn React for Free',
             url: 'https://scrimba.com/learn/learnreact',
           },
+          {
+            idLink: 6,
+            name: 'Quick Start – React',
+            url: 'https://reactjs.org/docs/getting-started.html',
+          },
+          {
+            idLink: 7,
+            name: 'React Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/react/',
+          },
+          {
+            idLink: 8,
+            name: 'Getting started with React - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started',
+          },
+          {
+            idLink: 9,
+            name: 'React Tutorial',
+            url: 'https://react-tutorial.app/',
+          },
+          {
+            idLink: 10,
+            name: 'The Complete React Tutorial for 2021 – Learn Major React Concepts by...',
+            url: 'https://www.freecodecamp.org/news/the-complete-react-tutorial-for-2021/',
+          },
         ],
       },
       {
@@ -2030,6 +2444,31 @@ const links = [
             idLink: 5,
             name: 'Coursera React Native Courses',
             url: 'https://www.coursera.org/courses?query=react%20native',
+          },
+          {
+            idLink: 6,
+            name: 'Learn the Basics · React Native',
+            url: 'https://reactnative.dev/docs/getting-started',
+          },
+          {
+            idLink: 7,
+            name: 'Introduction · React Native',
+            url: 'https://reactnative.dev/docs/introduction',
+          },
+          {
+            idLink: 8,
+            name: 'React Fundamentals · React Native',
+            url: 'https://reactnative.dev/docs/fundamentals',
+          },
+          {
+            idLink: 9,
+            name: 'Learn React Native | Codecademy',
+            url: 'https://www.codecademy.com/learn/learn-react-native',
+          },
+          {
+            idLink: 10,
+            name: 'React Native · Learn once, write anywhere',
+            url: 'https://reactnative.dev/',
           },
         ],
       },
@@ -2063,6 +2502,31 @@ const links = [
             name: 'FreeCodeCamp - Full Course on Vue.js',
             url: 'https://www.freecodecamp.org/news/vue-js-full-course/',
           },
+          {
+            idLink: 6,
+            name: 'Tutorial | Vue.js',
+            url: 'https://vuejs.org/v2/guide/',
+          },
+          {
+            idLink: 7,
+            name: 'Vue Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/vue/',
+          },
+          {
+            idLink: 8,
+            name: 'Getting started with Vue - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started',
+          },
+          {
+            idLink: 9,
+            name: 'Introduction | Vue.js',
+            url: 'https://vuejs.org/v2/guide/introduction.html',
+          },
+          {
+            idLink: 10,
+            name: 'Quick Start | Vue.js',
+            url: 'https://vuejs.org/v2/guide/index.html',
+          },
         ],
       },
       {
@@ -2094,6 +2558,31 @@ const links = [
             idLink: 5,
             name: 'FreeCodeCamp - Full Angular Course',
             url: 'https://www.freecodecamp.org/news/beaucarnes/angular-tutorial-course--H1jgKo9jE',
+          },
+          {
+            idLink: 6,
+            name: 'Angular - Angular tutorials',
+            url: 'https://angular.io/tutorial',
+          },
+          {
+            idLink: 7,
+            name: 'Complete Angular Tutorial For Beginners - TekTutorialsHub',
+            url: 'https://www.tektutorialshub.com/angular-tutorial/',
+          },
+          {
+            idLink: 8,
+            name: 'Angular',
+            url: 'https://angular.io/start',
+          },
+          {
+            idLink: 9,
+            name: 'Getting started with Angular - Learn web development | MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started',
+          },
+          {
+            idLink: 10,
+            name: 'Angular 11 Tutorials - TutorialsTeacher.com',
+            url: 'https://www.tutorialsteacher.com/angular',
           },
         ],
       },
@@ -2127,6 +2616,31 @@ const links = [
             name: 'Scrimba - Learn Sass',
             url: 'https://scrimba.com/learn/sass',
           },
+          {
+            idLink: 6,
+            name: 'Sass: Sass Basics',
+            url: 'https://sass-lang.com/guide',
+          },
+          {
+            idLink: 7,
+            name: 'Sass Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/sass/',
+          },
+          {
+            idLink: 8,
+            name: 'Sass: Documentation',
+            url: 'https://sass-lang.com/documentation',
+          },
+          {
+            idLink: 9,
+            name: 'The Beginners Guide to Sass - freeCodeCamp.org',
+            url: 'https://www.freecodecamp.org/news/the-beginners-guide-to-sass/',
+          },
+          {
+            idLink: 10,
+            name: 'Learn Sass | Codecademy',
+            url: 'https://www.codecademy.com/learn/learn-sass',
+          },
         ],
       },
       {
@@ -2158,6 +2672,31 @@ const links = [
             idLink: 5,
             name: 'Codecademy - Learn Bootstrap',
             url: 'https://www.codecademy.com/learn/learn-bootstrap',
+          },
+          {
+            idLink: 6,
+            name: 'Bootstrap 3 Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/bootstrap/',
+          },
+          {
+            idLink: 7,
+            name: 'Introduction · Bootstrap v5.0',
+            url: 'https://getbootstrap.com/docs/5.0/getting-started/introduction/',
+          },
+          {
+            idLink: 8,
+            name: 'Bootstrap 5 Tutorial - An Ultimate Guide for Beginners',
+            url: 'https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/',
+          },
+          {
+            idLink: 9,
+            name: 'Bootstrap 4 Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/bootstrap4/',
+          },
+          {
+            idLink: 10,
+            name: 'Get started with Bootstrap · Bootstrap v5.2',
+            url: 'https://getbootstrap.com/docs/5.2/getting-started/introduction/',
           },
         ],
       },
@@ -2191,6 +2730,26 @@ const links = [
             name: 'Codecademy - Learn Tailwind CSS',
             url: 'https://www.codecademy.com/learn/learn-tailwind-css',
           },
+          {
+            idLink: 6,
+            name: 'Documentation - Tailwind CSS',
+            url: 'https://tailwindcss.com/docs',
+          },
+          {
+            idLink: 7,
+            name: 'Tailwind CSS Tutorial for Beginners: A Guide to Get Started in 2023',
+            url: 'https://www.codeinwp.com/blog/tailwind-css-tutorial/',
+          },
+          {
+            idLink: 8,
+            name: 'Tailwind CSS - GeeksforGeeks',
+            url: 'https://www.geeksforgeeks.org/tailwind-css/',
+          },
+          {
+            idLink: 9,
+            name: 'Designing with Tailwind CSS',
+            url: 'https://tailwindcss.com/course',
+          },
         ],
       },
       {
@@ -2222,6 +2781,31 @@ const links = [
             idLink: 5,
             name: 'Udemy jQuery Courses',
             url: 'https://www.udemy.com/topic/jquery/',
+          },
+          {
+            idLink: 6,
+            name: 'jQuery Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/jquery/',
+          },
+          {
+            idLink: 7,
+            name: 'jQuery Learning Center',
+            url: 'https://learn.jquery.com/',
+          },
+          {
+            idLink: 8,
+            name: 'How jQuery Works | jQuery Learning Center',
+            url: 'https://learn.jquery.com/about-jquery/how-jquery-works/',
+          },
+          {
+            idLink: 9,
+            name: 'Learn jQuery using Step-by-Step Tutorials - TutorialsTeacher.com',
+            url: 'https://www.tutorialsteacher.com/jquery',
+          },
+          {
+            idLink: 10,
+            name: 'jQuery Syntax - W3Schools',
+            url: 'https://www.w3schools.com/jquery/jquery_syntax.asp',
           },
         ],
       },
@@ -2255,6 +2839,26 @@ const links = [
             name: 'Coursera Webpack Courses',
             url: 'https://www.coursera.org/courses?query=webpack',
           },
+          {
+            idLink: 6,
+            name: 'Getting Started | webpack',
+            url: 'https://webpack.js.org/guides/getting-started/',
+          },
+          {
+            idLink: 7,
+            name: 'A Beginner’s Guide to Webpack — SitePoint',
+            url: 'https://www.sitepoint.com/webpack-beginner-guide/',
+          },
+          {
+            idLink: 8,
+            name: 'Guides | webpack',
+            url: 'https://webpack.js.org/guides/',
+          },
+          {
+            idLink: 9,
+            name: 'Development | webpack',
+            url: 'https://webpack.js.org/guides/development/',
+          },
         ],
       },
       {
@@ -2286,6 +2890,26 @@ const links = [
             idLink: 5,
             name: 'Coursera Babel Courses',
             url: 'https://www.coursera.org/courses?query=babel',
+          },
+          {
+            idLink: 6,
+            name: 'What is Babel? · Babel',
+            url: 'https://babeljs.io/docs/',
+          },
+          {
+            idLink: 7,
+            name: 'Babel · Babel',
+            url: 'https://babeljs.io/',
+          },
+          {
+            idLink: 8,
+            name: 'Usage Guide · Babel',
+            url: 'https://babeljs.io/docs/usage',
+          },
+          {
+            idLink: 9,
+            name: 'Babel Tutorial: How to Set Up and Configure Babel 7',
+            url: 'https://www.taniarascia.com/es6-syntax-and-feature-overview/',
           },
         ],
       },
@@ -2319,6 +2943,31 @@ const links = [
             name: 'Codecademy - Learn Nuxt.js',
             url: 'https://www.codecademy.com/learn/learn-nuxt-js',
           },
+          {
+            idLink: 6,
+            name: 'Introduction · Get Started with Nuxt',
+            url: 'https://nuxtjs.org/guide',
+          },
+          {
+            idLink: 7,
+            name: 'Installation · Get Started with Nuxt',
+            url: 'https://nuxtjs.org/docs/2.x/get-started/installation',
+          },
+          {
+            idLink: 8,
+            name: 'Nuxt 2 - Tutorials',
+            url: 'https://id.nuxtjs.org/tutorials',
+          },
+          {
+            idLink: 9,
+            name: 'Nuxt JS Crash Course - YouTube',
+            url: 'https://www.youtube.com/watch?v=ltzlhAxJr74',
+          },
+          {
+            idLink: 10,
+            name: 'Getting Started with Nuxt 3 | A Beginners Guide - YouTube',
+            url: 'https://www.youtube.com/watch?v=ntyXvLnxyXk',
+          },
         ],
       },
       {
@@ -2351,261 +3000,30 @@ const links = [
             name: 'Egghead.io - Redux Courses',
             url: 'https://egghead.io/courses/getting-started-with-redux',
           },
-        ],
-      },
-      {
-        idTheme: 17,
-        name: 'Nuxt.js',
-        text: 'Um framework baseado em Vue.js para criar aplicações universais ou de página única, com renderização do lado do servidor ou geração de site estático.',
-        links: [
           {
-            idLink: 1,
-            name: 'Nuxt.js - Official Documentation',
-            url: 'https://nuxtjs.org/docs/get-started/installation',
+            idLink: 6,
+            name: 'Redux Fundamentals, Part 1: Redux Overview',
+            url: 'https://redux.js.org/tutorials/fundamentals/part-1-overview',
           },
           {
-            idLink: 2,
-            name: 'Vue School - Nuxt.js Courses',
-            url: 'https://vueschool.io/topics/nuxt',
+            idLink: 7,
+            name: 'Getting Started with Redux',
+            url: 'https://redux.js.org/introduction/getting-started',
           },
           {
-            idLink: 3,
-            name: 'FreeCodeCamp - Introduction to Nuxt.js',
-            url: 'https://www.freecodecamp.org/news/tag/nuxt/',
+            idLink: 8,
+            name: 'Redux Essentials, Part 1: Redux Overview and Concepts',
+            url: 'https://redux.js.org/tutorials/essentials/part-1-overview-concepts',
           },
           {
-            idLink: 4,
-            name: 'Udemy Nuxt.js Courses',
-            url: 'https://www.udemy.com/topic/nuxtjs/',
+            idLink: 9,
+            name: 'Understanding Redux: A tutorial with examples - LogRocket Blog',
+            url: 'https://blog.logrocket.com/understanding-redux-tutorial-examples/',
           },
           {
-            idLink: 5,
-            name: 'Codecademy - Learn Nuxt.js',
-            url: 'https://www.codecademy.com/learn/learn-nuxt-js',
-          },
-        ],
-      },
-      {
-        idTheme: 18,
-        name: 'Gatsby',
-        text: 'Um gerador de site estático moderno baseado em React. Permite a construção de websites e aplicações web que são rápidos e otimizados.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Gatsby - Official Documentation',
-            url: 'https://www.gatsbyjs.com/docs/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Gatsby Tutorial',
-            url: 'https://www.freecodecamp.org/news/tag/gatsby/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Gatsby Courses',
-            url: 'https://www.udemy.com/topic/gatsbyjs/',
-          },
-          {
-            idLink: 4,
-            name: 'Egghead.io - Gatsby Courses',
-            url: 'https://egghead.io/q?q=gatsby',
-          },
-          {
-            idLink: 5,
-            name: 'Codecademy - Learn Gatsby',
-            url: 'https://www.codecademy.com/learn/paths/build-a-website-with-react',
-          },
-        ],
-      },
-      {
-        idTheme: 19,
-        name: 'Ember.js',
-        text: 'Um framework ambicioso para aplicações web que elimina muita da redundância e fornece uma estrutura padrão para aplicações web.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Ember.js - Official Documentation',
-            url: 'https://guides.emberjs.com/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Ember.js Guide',
-            url: 'https://www.freecodecamp.org/news/what-is-ember-js-a-tutorial-and-guide/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Ember.js Courses',
-            url: 'https://www.udemy.com/topic/emberjs/',
-          },
-          {
-            idLink: 4,
-            name: 'EmberCast - Ember.js Screencasts',
-            url: 'https://www.embercasts.com/',
-          },
-          {
-            idLink: 5,
-            name: 'Egghead.io - Ember.js Courses',
-            url: 'https://egghead.io/q?q=ember.js',
-          },
-        ],
-      },
-      {
-        idTheme: 20,
-        name: 'Backbone.js',
-        text: 'Um framework JavaScript que fornece modelos com chave-valor e vinculação de eventos para estruturar aplicações web.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Backbone.js - Official Documentation',
-            url: 'http://backbonejs.org/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Backbone.js Tutorial',
-            url: 'https://www.freecodecamp.org/news/backbone-js-tutorial-learn-backbone-js-from-scratch/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Backbone.js Courses',
-            url: 'https://www.udemy.com/topic/backbonejs/',
-          },
-          {
-            idLink: 4,
-            name: 'Code School - Anatomy of Backbone.js',
-            url: 'https://www.pluralsight.com/courses/anatomy-of-backbonejs',
-          },
-          {
-            idLink: 5,
-            name: 'Egghead.io - Backbone.js Courses',
-            url: 'https://egghead.io/courses/building-applications-with-react-and-backbone',
-          },
-        ],
-      },
-      {
-        idTheme: 21,
-        name: 'Foundation',
-        text: 'Um framework front-end responsivo e de código aberto para desenvolvimento de sites.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Foundation - Official Documentation',
-            url: 'https://get.foundation/sites/docs/',
-          },
-          {
-            idLink: 2,
-            name: 'W3Schools - Foundation Framework Tutorial',
-            url: 'https://www.w3schools.com/w3css/w3css_templates.asp',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Foundation Courses',
-            url: 'https://www.udemy.com/topic/foundation-framework/',
-          },
-          {
-            idLink: 4,
-            name: 'Codecademy - Learn Foundation',
-            url: 'https://www.codecademy.com/catalog/subject/web-development',
-          },
-          {
-            idLink: 5,
-            name: 'Scrimba - Foundation Tutorial',
-            url: 'https://scrimba.com/learn/foundation',
-          },
-        ],
-      },
-      {
-        idTheme: 22,
-        name: 'JAMstack',
-        text: 'Uma arquitetura moderna para construção de aplicações web que oferece melhor desempenho, maior segurança e menor custo de escalabilidade.',
-        links: [
-          {
-            idLink: 1,
-            name: 'JAMstack.org - Official Resources',
-            url: 'https://jamstack.org/resources/',
-          },
-          {
-            idLink: 2,
-            name: 'Netlify - JAMstack Tutorials',
-            url: 'https://www.netlify.com/tags/jamstack/',
-          },
-          {
-            idLink: 3,
-            name: 'FreeCodeCamp - Introduction to JAMstack',
-            url: 'https://www.freecodecamp.org/news/what-is-jamstack-a-complete-guide/',
-          },
-          {
-            idLink: 4,
-            name: 'Udemy JAMstack Courses',
-            url: 'https://www.udemy.com/topic/jamstack/',
-          },
-          {
-            idLink: 5,
-            name: 'Bejamas - JAMstack Blog',
-            url: 'https://bejamas.io/blog/jamstack/',
-          },
-        ],
-      },
-      {
-        idTheme: 23,
-        name: 'Blazor',
-        text: 'Um framework de código aberto para construir aplicações web interativas usando C# e HTML.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Blazor - Official Documentation',
-            url: 'https://docs.microsoft.com/en-us/aspnet/core/blazor/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Introduction to Blazor',
-            url: 'https://www.freecodecamp.org/news/what-is-blazor-a-tutorial-on-building-web-apps-with-authentication/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Blazor Courses',
-            url: 'https://www.udemy.com/topic/blazor/',
-          },
-          {
-            idLink: 4,
-            name: 'Pluralsight - Blazor Courses',
-            url: 'https://www.pluralsight.com/search?q=blazor',
-          },
-          {
-            idLink: 5,
-            name: 'Codecademy - Learn Blazor',
-            url: 'https://www.codecademy.com/catalog/subject/all',
-          },
-        ],
-      },
-      {
-        idTheme: 24,
-        name: 'Svelte',
-        text: 'Um framework front-end moderno que compila suas aplicações para JavaScript puro no momento da construção.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Svelte - Official Documentation',
-            url: 'https://svelte.dev/docs',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Full Svelte Tutorial',
-            url: 'https://www.freecodecamp.org/news/the-complete-guide-to-svelte/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Svelte Courses',
-            url: 'https://www.udemy.com/topic/svelte/',
-          },
-          {
-            idLink: 4,
-            name: 'Frontend Masters - Svelte Courses',
-            url: 'https://frontendmasters.com/courses/svelte/',
-          },
-          {
-            idLink: 5,
-            name: 'Svelte Tutorial - Rethinking Reactivity',
-            url: 'https://svelte.dev/tutorial/basics',
+            idLink: 10,
+            name: 'Quick Start | React Redux - JS.ORG',
+            url: 'https://react-redux.js.org/introduction/quick-start',
           },
         ],
       },
