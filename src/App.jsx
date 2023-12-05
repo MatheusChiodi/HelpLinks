@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <>
-      <div className="w-full h-screen bg-[#F8F8F2] pb-3">
+      <div className="w-full pb-3">
         <Header onModal={toggleModal} />
         {uiState.category ? (
           <Links category={uiState.category} onCategory={changeCategory} />
@@ -24,14 +24,14 @@ export default function App() {
             <Category onCategory={changeCategory} />
           </div>
         )}
-        {uiState.modalExist && (
-          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
-            <Modal onModal={toggleModal} onCategory={changeCategory} />
-          </div>
-        )}
+
         <ScrollToTopButton />
       </div>
-      
+      {uiState.modalExist && (
+        <div className="absolute z-30 top-0 left-0 w-full h-screen bg-black bg-opacity-50">
+          <Modal onModal={toggleModal} onCategory={changeCategory} />
+        </div>
+      )}
     </>
   );
 }
