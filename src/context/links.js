@@ -1532,7 +1532,291 @@ const links = [
     bgColor: '#FFFACD',
     textColor: '#282A36',
     img: 'CienciaDeDados.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'O que é Ciência de Dados?',
+        text: 'Ciência de Dados é um campo interdisciplinar que utiliza métodos científicos, processos e sistemas para extrair conhecimento ou insights de dados em várias formas, tanto estruturadas quanto não estruturadas.',
+        links: [
+          {
+            idLink: 1,
+            name: 'História da Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_science#History',
+          },
+          {
+            idLink: 2,
+            name: 'Importância da Ciência de Dados',
+            url: 'https://www.forbes.com/sites/forbestechcouncil/2018/08/13/why-data-science-is-so-important/#12345abcd',
+          },
+          {
+            idLink: 3,
+            name: 'Definição de Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_science',
+          },
+          {
+            idLink: 4,
+            name: 'História e Evolução da Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_science#History',
+          },
+          {
+            idLink: 5,
+            name: 'Processo e Ciclo de Vida da Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_science#Data_science_process',
+          },
+          {
+            idLink: 6,
+            name: 'Ferramentas e Tecnologias em Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_science#Technologies_and_techniques',
+          },
+          {
+            idLink: 7,
+            name: 'Estatística e Análise de Dados',
+            url: 'https://en.wikipedia.org/wiki/Statistics',
+          },
+          {
+            idLink: 8,
+            name: 'Aprendizado de Máquina e Modelagem Preditiva',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning',
+          },
+          {
+            idLink: 9,
+            name: 'Big Data e Seu Impacto na Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Big_data',
+          },
+          {
+            idLink: 10,
+            name: 'Visualização de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_visualization',
+          },
+          {
+            idLink: 11,
+            name: 'Ciência de Dados em Diferentes Indústrias',
+            url: 'https://en.wikipedia.org/wiki/Data_science#In_industry',
+          },
+          {
+            idLink: 12,
+            name: 'Desafios e Tendências Futuras na Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Data_science#Challenges',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Estatística Básica para Ciência de Dados',
+        text: 'A estatística é um componente central da ciência de dados. É crucial para analisar dados e gerar insights significativos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Fundamentos de Estatística',
+            url: 'https://www.khanacademy.org/math/statistics-probability',
+          },
+          {
+            idLink: 2,
+            name: 'Estatística Descritiva e Inferencial',
+            url: 'https://en.wikipedia.org/wiki/Statistics',
+          },
+          {
+            idLink: 3,
+            name: 'Aplicação de Estatística em Ciência de Dados',
+            url: 'https://www.springboard.com/blog/data-science/statistics-for-data-science/',
+          },
+          {
+            idLink: 4,
+            name: 'Conceitos Fundamentais de Estatística',
+            url: 'https://en.wikipedia.org/wiki/Statistics',
+          },
+          {
+            idLink: 5,
+            name: 'Probabilidade e Teoria das Probabilidades',
+            url: 'https://en.wikipedia.org/wiki/Probability_theory',
+          },
+          {
+            idLink: 6,
+            name: 'Variáveis Aleatórias e Distribuições de Probabilidade',
+            url: 'https://en.wikipedia.org/wiki/Random_variable',
+          },
+          {
+            idLink: 7,
+            name: 'Análise Descritiva e Exploratória de Dados',
+            url: 'https://en.wikipedia.org/wiki/Descriptive_statistics',
+          },
+          {
+            idLink: 8,
+            name: 'Inferência Estatística',
+            url: 'https://en.wikipedia.org/wiki/Statistical_inference',
+          },
+          {
+            idLink: 9,
+            name: 'Testes de Hipóteses',
+            url: 'https://en.wikipedia.org/wiki/Statistical_hypothesis_testing',
+          },
+          {
+            idLink: 10,
+            name: 'Correlação e Regressão',
+            url: 'https://en.wikipedia.org/wiki/Correlation_and_dependence',
+          },
+          {
+            idLink: 11,
+            name: 'Análise de Variância (ANOVA)',
+            url: 'https://en.wikipedia.org/wiki/Analysis_of_variance',
+          },
+          {
+            idLink: 12,
+            name: 'Estatística Não Paramétrica',
+            url: 'https://en.wikipedia.org/wiki/Nonparametric_statistics',
+          },
+          {
+            idLink: 13,
+            name: 'Uso de Software Estatístico na Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/List_of_statistical_software',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'Programação para Ciência de Dados',
+        text: 'Aprender linguagens de programação como Python e R é essencial para realizar análises de dados, visualizações e modelagem preditiva.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Python para Ciência de Dados',
+            url: 'https://www.datacamp.com/courses/intro-to-python-for-data-science',
+          },
+          {
+            idLink: 2,
+            name: 'R para Ciência de Dados',
+            url: 'https://www.r-project.org/about.html',
+          },
+          {
+            idLink: 3,
+            name: 'Bibliotecas de Análise de Dados',
+            url: 'https://pandas.pydata.org/',
+          },
+          {
+            idLink: 4,
+            name: 'Python - Linguagem de Programação para Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Python_(programming_language)#Use_in_data_science',
+          },
+          {
+            idLink: 5,
+            name: 'R - Linguagem de Programação para Estatística e Análise de Dados',
+            url: 'https://en.wikipedia.org/wiki/R_(programming_language)',
+          },
+          {
+            idLink: 6,
+            name: 'SQL para Gerenciamento de Dados',
+            url: 'https://en.wikipedia.org/wiki/SQL',
+          },
+          {
+            idLink: 7,
+            name: 'Utilizando Julia em Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Julia_(programming_language)',
+          },
+          {
+            idLink: 8,
+            name: 'Bibliotecas Python para Ciência de Dados: Pandas, NumPy, SciPy',
+            url: 'https://en.wikipedia.org/wiki/List_of_Python_software#Science_and_data_analysis',
+          },
+          {
+            idLink: 9,
+            name: 'Visualização de Dados com Matplotlib e Seaborn em Python',
+            url: 'https://en.wikipedia.org/wiki/Matplotlib',
+          },
+          {
+            idLink: 10,
+            name: 'Aprendizado de Máquina com scikit-learn',
+            url: 'https://en.wikipedia.org/wiki/Scikit-learn',
+          },
+          {
+            idLink: 11,
+            name: 'Processamento de Linguagem Natural com Python',
+            url: 'https://en.wikipedia.org/wiki/Natural_language_processing',
+          },
+          {
+            idLink: 12,
+            name: 'Big Data: Hadoop e Spark',
+            url: 'https://en.wikipedia.org/wiki/Apache_Hadoop',
+          },
+          {
+            idLink: 13,
+            name: 'Técnicas de Programação Eficiente para Ciência de Dados',
+            url: 'https://en.wikipedia.org/wiki/Computer_programming#Programming_language',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Machine Learning',
+        text: 'Machine Learning é uma parte fundamental da ciência de dados, permitindo que computadores aprendam a partir de dados.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Machine Learning',
+            url: 'https://www.coursera.org/learn/machine-learning',
+          },
+          {
+            idLink: 2,
+            name: 'Algoritmos de Machine Learning',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning#Algorithms',
+          },
+          {
+            idLink: 3,
+            name: 'Machine Learning em Python',
+            url: 'https://scikit-learn.org/stable/',
+          },
+          {
+            idLink: 4,
+            name: 'Introdução ao Machine Learning',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning',
+          },
+          {
+            idLink: 5,
+            name: 'Tipos de Aprendizado de Máquina: Supervisionado, Não Supervisionado e por Reforço',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning#Types_of_learning_algorithms',
+          },
+          {
+            idLink: 6,
+            name: 'Algoritmos de Machine Learning',
+            url: 'https://en.wikipedia.org/wiki/List_of_machine_learning_algorithms',
+          },
+          {
+            idLink: 7,
+            name: 'Redes Neurais e Deep Learning',
+            url: 'https://en.wikipedia.org/wiki/Deep_learning',
+          },
+          {
+            idLink: 8,
+            name: 'Processamento de Linguagem Natural (PLN)',
+            url: 'https://en.wikipedia.org/wiki/Natural_language_processing',
+          },
+          {
+            idLink: 9,
+            name: 'Visão Computacional',
+            url: 'https://en.wikipedia.org/wiki/Computer_vision',
+          },
+          {
+            idLink: 10,
+            name: 'Machine Learning em Big Data',
+            url: 'https://en.wikipedia.org/wiki/Big_data',
+          },
+          {
+            idLink: 11,
+            name: 'Ética e Machine Learning',
+            url: 'https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence#Machine_learning_ethics',
+          },
+          {
+            idLink: 12,
+            name: 'Ferramentas e Frameworks de Machine Learning',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning#Software',
+          },
+          {
+            idLink: 13,
+            name: 'Desafios e Tendências Futuras em Machine Learning',
+            url: 'https://en.wikipedia.org/wiki/Machine_learning#Challenges_and_future_directions',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 7,
