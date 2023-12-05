@@ -2121,7 +2121,678 @@ const links = [
     bgColor: '#FFA07A',
     textColor: '#282A36',
     img: 'Desing.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'Behance',
+        text: 'Behance é uma plataforma de exposição de trabalhos criativos, onde designers compartilham seus portfolios e encontram inspiração.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Behance',
+            url: 'https://www.behance.net/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Projetos no Behance',
+            url: 'https://www.behance.net/search/projects',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Dribbble',
+        text: 'Dribbble é uma comunidade de designers e criativos que compartilham pequenos fragmentos de seu trabalho, processos e projetos atuais.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Dribbble',
+            url: 'https://dribbble.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Designs no Dribbble',
+            url: 'https://dribbble.com/shots',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'Remove.bg',
+        text: 'Remove.bg é uma ferramenta online para remoção automática de fundo de imagens, útil para designers que trabalham com composição e montagem.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Remove.bg',
+            url: 'https://www.remove.bg/',
+          },
+          {
+            idLink: 2,
+            name: 'Usar Remove.bg para Remover Fundos',
+            url: 'https://www.remove.bg/upload',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Unsplash',
+        text: 'Unsplash oferece fotografias de alta resolução gratuitas, fornecidas por uma comunidade generosa de fotógrafos, ideais para designs e composições.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Unsplash',
+            url: 'https://unsplash.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Fotos no Unsplash',
+            url: 'https://unsplash.com/s/photos',
+          },
+        ],
+      },
+      {
+        idTheme: 5,
+        name: 'Canva',
+        text: 'Canva é uma ferramenta de design gráfico online, fácil de usar, que oferece acesso a uma vasta gama de modelos, imagens e ícones.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Canva',
+            url: 'https://www.canva.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Criar Designs no Canva',
+            url: 'https://www.canva.com/create',
+          },
+        ],
+      },
+      {
+        idTheme: 6,
+        name: 'Adobe Color',
+        text: 'Adobe Color é uma ferramenta online para criação e compartilhamento de paletas de cores, ajudando designers a escolher combinações de cores harmoniosas para seus projetos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Adobe Color',
+            url: 'https://color.adobe.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Criar Paletas de Cores com Adobe Color',
+            url: 'https://color.adobe.com/create/color-wheel',
+          },
+        ],
+      },
+      {
+        idTheme: 7,
+        name: 'Font Squirrel',
+        text: 'Font Squirrel é um recurso para encontrar fontes gratuitas e de alta qualidade, com uma ferramenta de identificação de fontes e uma seleção de fontes licenciadas para uso comercial.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Font Squirrel',
+            url: 'https://www.fontsquirrel.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Encontrar Fontes no Font Squirrel',
+            url: 'https://www.fontsquirrel.com/fonts',
+          },
+        ],
+      },
+      {
+        idTheme: 8,
+        name: 'Pixlr',
+        text: 'Pixlr oferece um conjunto de ferramentas de edição de imagem online, incluindo um editor de imagem avançado e um editor expresso para ajustes rápidos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Pixlr',
+            url: 'https://pixlr.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Editar Imagens no Pixlr',
+            url: 'https://pixlr.com/editor/',
+          },
+        ],
+      },
+      {
+        idTheme: 9,
+        name: 'Coolors',
+        text: 'Coolors é uma ferramenta rápida para geração de paletas de cores, permitindo que designers criem, salvem e compartilhem paletas de cores com facilidade.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Coolors',
+            url: 'https://coolors.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Gerador de Paletas de Cores Coolors',
+            url: 'https://coolors.co/generate',
+          },
+        ],
+      },
+      {
+        idTheme: 10,
+        name: 'Creative Market',
+        text: 'Creative Market é um mercado online para comprar gráficos, fontes, temas, fotos e outros conteúdos digitais criados por designers independentes.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Creative Market',
+            url: 'https://creativemarket.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Produtos no Creative Market',
+            url: 'https://creativemarket.com/search',
+          },
+        ],
+      },
+      {
+        idTheme: 11,
+        name: 'Flaticon',
+        text: 'Flaticon oferece uma vasta coleção de ícones em diversos formatos, útil para designers gráficos e web designers na criação de interfaces e materiais gráficos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Flaticon',
+            url: 'https://www.flaticon.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Ícones no Flaticon',
+            url: 'https://www.flaticon.com/search',
+          },
+        ],
+      },
+      {
+        idTheme: 12,
+        name: 'InVision',
+        text: 'InVision é uma ferramenta de design de interface e prototipagem, que permite aos designers criar interações realistas e gerenciar o processo de design.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do InVision',
+            url: 'https://www.invisionapp.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Iniciar um Projeto no InVision',
+            url: 'https://www.invisionapp.com/inside-design/design-resources/',
+          },
+        ],
+      },
+      {
+        idTheme: 13,
+        name: 'Sketch',
+        text: 'Sketch é uma ferramenta de design digital focada em design de interface e prototipagem, popular entre designers de UI/UX.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Sketch',
+            url: 'https://www.sketch.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Recursos do Sketch',
+            url: 'https://www.sketch.com/extensions/',
+          },
+        ],
+      },
+      {
+        idTheme: 14,
+        name: 'Figma',
+        text: 'Figma é uma ferramenta de design de interface baseada em navegador, que facilita a colaboração em tempo real entre equipes de design.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Figma',
+            url: 'https://www.figma.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Começar a Usar o Figma',
+            url: 'https://www.figma.com/best-practices/',
+          },
+        ],
+      },
+      {
+        idTheme: 15,
+        name: 'Gravit Designer',
+        text: 'Gravit Designer é uma ferramenta de design gráfico avançada e completa, oferecendo capacidades de vetor, layout, foto e mais.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Gravit Designer',
+            url: 'https://www.designer.io/en/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Recursos do Gravit Designer',
+            url: 'https://www.designer.io/en/learn/',
+          },
+        ],
+      },
+      {
+        idTheme: 16,
+        name: '99designs',
+        text: '99designs é uma plataforma onde designers podem participar de concursos de design e se conectar com clientes, ideal para encontrar inspiração e oportunidades de trabalho.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do 99designs',
+            url: 'https://99designs.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Concursos de Design no 99designs',
+            url: 'https://99designs.com/contests',
+          },
+        ],
+      },
+      {
+        idTheme: 17,
+        name: 'Color Hunt',
+        text: 'Color Hunt é uma ferramenta gratuita e de fácil uso para encontrar combinações de cores, oferecendo uma grande variedade de paletas de cores inspiradoras.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Color Hunt',
+            url: 'https://colorhunt.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Paletas de Cores no Color Hunt',
+            url: 'https://colorhunt.co/palettes/popular',
+          },
+        ],
+      },
+      {
+        idTheme: 18,
+        name: 'Designspiration',
+        text: 'Designspiration é um recurso para descobrir e compartilhar ideias de design visual, semelhante a uma versão focada em design do Pinterest.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Designspiration',
+            url: 'https://www.designspiration.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Inspirações no Designspiration',
+            url: 'https://www.designspiration.com/save/',
+          },
+        ],
+      },
+      {
+        idTheme: 19,
+        name: 'Envato Elements',
+        text: 'Envato Elements oferece uma vasta biblioteca de templates de design gráfico, vídeo, áudio, e muito mais, sob uma assinatura única.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Envato Elements',
+            url: 'https://elements.envato.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Recursos no Envato Elements',
+            url: 'https://elements.envato.com/graphic-templates',
+          },
+        ],
+      },
+      {
+        idTheme: 20,
+        name: 'Typography.com',
+        text: 'Typography.com é um recurso para encontrar fontes de alta qualidade e únicas, com foco em tipografia para projetos de design.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Typography.com',
+            url: 'https://www.typography.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Fontes no Typography.com',
+            url: 'https://www.typography.com/fonts/',
+          },
+        ],
+      },
+      {
+        idTheme: 21,
+        name: 'UI Movement',
+        text: 'UI Movement é um site dedicado a inspiração de design de interface, com foco em animações e interações de UI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do UI Movement',
+            url: 'https://uimovement.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Designs de UI no UI Movement',
+            url: 'https://uimovement.com/ui-tags/',
+          },
+        ],
+      },
+      {
+        idTheme: 22,
+        name: 'Pexels',
+        text: 'Pexels oferece fotos e vídeos gratuitos de alta qualidade compartilhados por uma comunidade talentosa, ideal para projetos de design que necessitam de imagens visuais.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Pexels',
+            url: 'https://www.pexels.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Fotos e Vídeos no Pexels',
+            url: 'https://www.pexels.com/search/',
+          },
+        ],
+      },
+      {
+        idTheme: 23,
+        name: 'Awwwards',
+        text: 'Awwwards reconhece os melhores talentos e esforços dos designers, desenvolvedores e agências web do mundo, servindo como fonte de inspiração e tendências em design web.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Awwwards',
+            url: 'https://www.awwwards.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Projetos Premiados no Awwwards',
+            url: 'https://www.awwwards.com/websites/',
+          },
+        ],
+      },
+      {
+        idTheme: 24,
+        name: 'Freepik',
+        text: 'Freepik oferece uma grande variedade de recursos gráficos gratuitos, incluindo vetores, ícones, fotos e PSDs, úteis para designers gráficos e web designers.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Freepik',
+            url: 'https://www.freepik.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Recursos no Freepik',
+            url: 'https://www.freepik.com/popular-photos',
+          },
+        ],
+      },
+      {
+        idTheme: 25,
+        name: 'Mockup World',
+        text: 'Mockup World oferece uma extensa coleção de mockups de produtos gratuitos para apresentar projetos de design de maneira realista e profissional.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Mockup World',
+            url: 'https://www.mockupworld.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Mockups no Mockup World',
+            url: 'https://www.mockupworld.co/all-mockups/',
+          },
+        ],
+      },
+      {
+        idTheme: 26,
+        name: 'Vecteezy',
+        text: 'Vecteezy é um recurso para encontrar vetores, clipart e ilustrações gratuitas, úteis para uma variedade de projetos de design.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Vecteezy',
+            url: 'https://www.vecteezy.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Vetores no Vecteezy',
+            url: 'https://www.vecteezy.com/free-vector',
+          },
+        ],
+      },
+      {
+        idTheme: 27,
+        name: 'Material Design',
+        text: 'Material Design é um sistema de design desenvolvido pelo Google, oferecendo diretrizes, componentes e ferramentas para criar experiências de usuário intuitivas e coerentes.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Material Design',
+            url: 'https://material.io/',
+          },
+          {
+            idLink: 2,
+            name: 'Recursos do Material Design',
+            url: 'https://material.io/resources',
+          },
+        ],
+      },
+      {
+        idTheme: 28,
+        name: 'Blush',
+        text: 'Blush oferece coleções de ilustrações personalizáveis para designers, permitindo criar imagens únicas para projetos digitais e impressos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Blush',
+            url: 'https://blush.design/',
+          },
+          {
+            idLink: 2,
+            name: 'Criar Ilustrações com Blush',
+            url: 'https://blush.design/collections',
+          },
+        ],
+      },
+      {
+        idTheme: 29,
+        name: 'Font Awesome',
+        text: 'Font Awesome é uma biblioteca de ícones e ferramentas associadas, popular entre desenvolvedores web e designers para incorporar ícones em projetos digitais.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Font Awesome',
+            url: 'https://fontawesome.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Ícones no Font Awesome',
+            url: 'https://fontawesome.com/icons',
+          },
+        ],
+      },
+      {
+        idTheme: 30,
+        name: 'Designmodo',
+        text: 'Designmodo oferece artigos, tutoriais e recursos para web design e desenvolvimento, além de ferramentas úteis como geradores de email e website templates.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Designmodo',
+            url: 'https://designmodo.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Recursos e Tutoriais do Designmodo',
+            url: 'https://designmodo.com/blog/',
+          },
+        ],
+      },
+      {
+        idTheme: 31,
+        name: 'Creative Bloq',
+        text: 'Creative Bloq oferece notícias diárias, dicas, tutoriais, avaliações e recursos inspiradores para o mundo do design gráfico, web design e 3D.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Creative Bloq',
+            url: 'https://www.creativebloq.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Artigos e Tutoriais do Creative Bloq',
+            url: 'https://www.creativebloq.com/how-to',
+          },
+        ],
+      },
+      {
+        idTheme: 32,
+        name: 'GraphicBurger',
+        text: 'GraphicBurger oferece mockups, UI kits, ícones, texturas e outros recursos gráficos de alta qualidade para designers.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do GraphicBurger',
+            url: 'https://graphicburger.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Recursos no GraphicBurger',
+            url: 'https://graphicburger.com/mock-ups/',
+          },
+        ],
+      },
+      {
+        idTheme: 33,
+        name: 'LogoLounge',
+        text: 'LogoLounge é um site dedicado a logotipos e identidade de marca, oferecendo inspiração, recursos e uma comunidade para designers de logotipos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do LogoLounge',
+            url: 'https://www.logolounge.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Galeria de Logotipos do LogoLounge',
+            url: 'https://www.logolounge.com/logo-inspiration',
+          },
+        ],
+      },
+      {
+        idTheme: 34,
+        name: 'Niice',
+        text: 'Niice é uma ferramenta de brainstorm e moodboarding, que ajuda equipes criativas a coletar e compartilhar ideias visuais.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Niice',
+            url: 'https://niice.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Criar Moodboards com Niice',
+            url: 'https://niice.co/moodboards',
+          },
+        ],
+      },
+      {
+        idTheme: 35,
+        name: 'Smashing Magazine',
+        text: 'Smashing Magazine é uma revista online para designers e desenvolvedores web, com artigos sobre técnicas, tendências e melhores práticas em web design e desenvolvimento.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Smashing Magazine',
+            url: 'https://www.smashingmagazine.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Artigos e Tutoriais do Smashing Magazine',
+            url: 'https://www.smashingmagazine.com/articles/',
+          },
+        ],
+      },
+      {
+        idTheme: 36,
+        name: 'Design Hill',
+        text: 'Design Hill é uma plataforma criativa que oferece serviços como criação de logotipos, design gráfico, design de embalagens e concursos de design.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Design Hill',
+            url: 'https://www.designhill.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Serviços e Concursos no Design Hill',
+            url: 'https://www.designhill.com/design-services',
+          },
+        ],
+      },
+      {
+        idTheme: 37,
+        name: 'Logo Maker by Ucraft',
+        text: 'Logo Maker by Ucraft é uma ferramenta online gratuita para criar logotipos rapidamente, ideal para startups e pequenos negócios.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Criar Logotipo com Ucraft',
+            url: 'https://www.ucraft.com/free-logo-maker',
+          },
+        ],
+      },
+      {
+        idTheme: 38,
+        name: 'Pattern Library',
+        text: 'Pattern Library é uma coleção online de padrões de design, oferecendo inspiração para fundos, texturas e elementos gráficos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Pattern Library',
+            url: 'http://thepatternlibrary.com/',
+          },
+        ],
+      },
+      {
+        idTheme: 39,
+        name: 'The Noun Project',
+        text: 'The Noun Project reúne uma enorme coleção de ícones de diversos designers do mundo todo, proporcionando uma vasta biblioteca de ícones para todos os fins.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do The Noun Project',
+            url: 'https://thenounproject.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Ícones no The Noun Project',
+            url: 'https://thenounproject.com/icons/',
+          },
+        ],
+      },
+      {
+        idTheme: 40,
+        name: 'Webdesigner Depot',
+        text: 'Webdesigner Depot é um blog popular que oferece as últimas notícias, tendências e tutoriais em design web e UX.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Webdesigner Depot',
+            url: 'https://www.webdesignerdepot.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Artigos e Recursos no Webdesigner Depot',
+            url: 'https://www.webdesignerdepot.com/category/resources/',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 9,
@@ -3123,6 +3794,31 @@ const links = [
             name: 'Coursera Express.js Courses',
             url: 'https://www.coursera.org/courses?query=express.js',
           },
+          {
+            idLink: 6,
+            name: 'ExpressJS Tutorial - Online Tutorials Library',
+            url: 'https://www.tutorialspoint.com/expressjs/index.htm',
+          },
+          {
+            idLink: 7,
+            name: 'Express web framework (Node.js/JavaScript) - MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs',
+          },
+          {
+            idLink: 8,
+            name: 'Express/Node introduction - MDN',
+            url: 'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction',
+          },
+          {
+            idLink: 9,
+            name: 'Express - Node.js web application framework',
+            url: 'http://expressjs.com/',
+          },
+          {
+            idLink: 10,
+            name: 'How To Get Started with Node.js and Express - DigitalOcean',
+            url: 'https://www.digitalocean.com/community/tutorials/how-to-use-node-js-modules-with-npm-and-package-json',
+          },
         ],
       },
       {
@@ -3154,6 +3850,36 @@ const links = [
             idLink: 5,
             name: 'Coursera Deno Courses',
             url: 'https://www.coursera.org/courses?query=deno',
+          },
+          {
+            idLink: 6,
+            name: 'The Deno Handbook – A TypeScript Runtime Tutorial with Code Examples',
+            url: 'https://www.freecodecamp.org/news/the-deno-handbook/',
+          },
+          {
+            idLink: 7,
+            name: 'How to get started with Deno Tutorial - Robin Wieruch',
+            url: 'https://www.robinwieruch.de/deno-tutorial',
+          },
+          {
+            idLink: 8,
+            name: 'Deno, The next-generation JavaScript runtime',
+            url: 'https://deno.com/',
+          },
+          {
+            idLink: 9,
+            name: 'The Deno Handbook: a concise introduction to Deno',
+            url: 'https://flaviocopes.com/deno/',
+          },
+          {
+            idLink: 10,
+            name: 'Deno in 100 Seconds - YouTube',
+            url: 'https://www.youtube.com/watch?v=DZyWNS4fVE0',
+          },
+          {
+            idLink: 11,
+            name: 'Deno Manual',
+            url: 'https://docs.deno.com/runtime/manual',
           },
         ],
       },
@@ -3187,138 +3913,25 @@ const links = [
             name: 'Coursera NestJS Courses',
             url: 'https://www.coursera.org/courses?query=nestjs',
           },
+          {
+            idLink: 6,
+            name: 'NestJS - GitHub Repository',
+            url: 'https://github.com/nestjs/nest',
+          },
+          {
+            idLink: 7,
+            name: 'NestJS - YouTube Channel',
+            url: 'https://www.youtube.com/c/NestJS',
+          },
+          {
+            idLink: 8,
+            name: 'NestJS - A progressive Node.js framework',
+            url: 'https://nestjs.com/',
+          },
         ],
       },
       {
         idTheme: 5,
-        name: 'AdonisJS',
-        text: 'É um framework back-end para Node.js que permite que os desenvolvedores escrevam aplicativos web robustos e funcionais com facilidade e velocidade.',
-        links: [
-          {
-            idLink: 1,
-            name: 'AdonisJS - Official Documentation',
-            url: 'https://docs.adonisjs.com/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Introduction to AdonisJS',
-            url: 'https://www.freecodecamp.org/news/what-is-adonisjs/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy AdonisJS Courses',
-            url: 'https://www.udemy.com/topic/adonisjs/',
-          },
-          {
-            idLink: 4,
-            name: 'Codecademy - Learn AdonisJS',
-            url: 'https://www.codecademy.com/learn/learn-adonisjs',
-          },
-          {
-            idLink: 5,
-            name: 'Coursera AdonisJS Courses',
-            url: 'https://www.coursera.org/courses?query=adonisjs',
-          },
-        ],
-      },
-      {
-        idTheme: 6,
-        name: 'Meteor',
-        text: 'É uma plataforma JavaScript de código aberto para criar aplicações web e móveis. O Meteor torna o desenvolvimento de software mais fácil com uma pilha de tecnologia simples, uma linguagem de programação unificada e uma comunidade de desenvolvedores ativa.',
-        links: [
-          {
-            idLink: 1,
-            name: 'Meteor - Official Documentation',
-            url: 'https://docs.meteor.com/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Introduction to Meteor',
-            url: 'https://www.freecodecamp.org/news/what-is-meteor-js-and-why-is-it-so-awesome/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy Meteor Courses',
-            url: 'https://www.udemy.com/topic/meteor/',
-          },
-          {
-            idLink: 4,
-            name: 'Codecademy - Learn Meteor',
-            url: 'https://www.codecademy.com/learn/learn-meteor',
-          },
-          {
-            idLink: 5,
-            name: 'Coursera Meteor Courses',
-            url: 'https://www.coursera.org/courses?query=meteor',
-          },
-        ],
-      },
-      {
-        idTheme: 7,
-        name: 'FeathersJS',
-        text: 'É um framework back-end para a construção de aplicações web e APIs em tempo real. Ele funciona com qualquer banco de dados e é agnóstico de cliente, o que significa que funciona com qualquer cliente de front-end (React, Vue.js, Angular, etc.) e qualquer dispositivo (iOS, Android, TVs, etc.)',
-        links: [
-          {
-            idLink: 1,
-            name: 'FeathersJS - Official Documentation',
-            url: 'https://docs.feathersjs.com/',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Introduction to FeathersJS',
-            url: 'https://www.freecodecamp.org/news/what-is-feathers-js/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy FeathersJS Courses',
-            url: 'https://www.udemy.com/topic/feathersjs/',
-          },
-          {
-            idLink: 4,
-            name: 'Codecademy - Learn FeathersJS',
-            url: 'https://www.codecademy.com/learn/learn-feathersjs',
-          },
-          {
-            idLink: 5,
-            name: 'Coursera FeathersJS Courses',
-            url: 'https://www.coursera.org/courses?query=feathersjs',
-          },
-        ],
-      },
-      {
-        idTheme: 8,
-        name: 'LoopBack',
-        text: 'É um framework Node.js altamente extensível para criar APIs e microsserviços.',
-        links: [
-          {
-            idLink: 1,
-            name: 'LoopBack - Official Documentation',
-            url: 'https://loopback.io/doc/en/lb4/index.html',
-          },
-          {
-            idLink: 2,
-            name: 'FreeCodeCamp - Introduction to LoopBack',
-            url: 'https://www.freecodecamp.org/news/what-is-loopback-js/',
-          },
-          {
-            idLink: 3,
-            name: 'Udemy LoopBack Courses',
-            url: 'https://www.udemy.com/topic/loopback-framework/',
-          },
-          {
-            idLink: 4,
-            name: 'Codecademy - Learn LoopBack',
-            url: 'https://www.codecademy.com/learn/learn-loopback',
-          },
-          {
-            idLink: 5,
-            name: 'Coursera LoopBack Courses',
-            url: 'https://www.coursera.org/courses?query=loopback',
-          },
-        ],
-      },
-      {
-        idTheme: 9,
         name: 'Php',
         text: 'É uma linguagem de script open source de uso geral, especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.',
         links: [
@@ -3347,10 +3960,35 @@ const links = [
             name: 'Coursera PHP Courses',
             url: 'https://www.coursera.org/courses?query=php',
           },
+          {
+            idLink: 6,
+            name: 'PHP Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/php/',
+          },
+          {
+            idLink: 7,
+            name: 'PHP: Documentation',
+            url: 'https://www.php.net/docs.php',
+          },
+          {
+            idLink: 8,
+            name: 'PHP: Getting Started',
+            url: 'https://www.php.net/manual/en/getting-started.php',
+          },
+          {
+            idLink: 9,
+            name: 'PHP Tutorial - Tutorialspoint',
+            url: 'https://www.tutorialspoint.com/php/index.htm',
+          },
+          {
+            idLink: 10,
+            name: 'PHP Tutorial - Tutorial Republic',
+            url: 'https://www.tutorialrepublic.com/php-tutorial/',
+          },
         ],
       },
       {
-        idTheme: 10,
+        idTheme: 6,
         name: 'Laravel',
         text: 'É um framework PHP livre e open-source criado por Taylor B. Otwell para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller).',
         links: [
@@ -3379,10 +4017,35 @@ const links = [
             name: 'Coursera Laravel Courses',
             url: 'https://www.coursera.org/courses?query=laravel',
           },
+          {
+            idLink: 6,
+            name: 'Laravel Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/laravel/',
+          },
+          {
+            idLink: 7,
+            name: 'Laravel - The PHP Framework For Web Artisans',
+            url: 'https://laravel.com/',
+          },
+          {
+            idLink: 8,
+            name: 'Laravel Tutorial - Tutorialspoint',
+            url: 'https://www.tutorialspoint.com/laravel/index.htm',
+          },
+          {
+            idLink: 9,
+            name: 'Laravel Tutorial - Tutorial Republic',
+            url: 'https://www.tutorialrepublic.com/laravel-tutorial/',
+          },
+          {
+            idLink: 10,
+            name: 'Laravel Tutorial - GeeksforGeeks',
+            url: 'https://www.geeksforgeeks.org/laravel-tutorial/',
+          },
         ],
       },
       {
-        idTheme: 11,
+        idTheme: 7,
         name: 'Symfony',
         text: 'É um conjunto de componentes PHP reutilizáveis e um framework web para PHP. Ele foi publicado como software livre sob a licença MIT.',
         links: [
@@ -3411,10 +4074,30 @@ const links = [
             name: 'Coursera Symfony Courses',
             url: 'https://www.coursera.org/courses?query=symfony',
           },
+          {
+            idLink: 6,
+            name: 'Symfony, High Performance PHP Framework for Web Development',
+            url: 'https://symfony.com/',
+          },
+          {
+            idLink: 7,
+            name: 'Symfony Tutorial - Tutorialspoint',
+            url: 'https://www.tutorialspoint.com/symfony/index.htm',
+          },
+          {
+            idLink: 8,
+            name: 'Symfony Tutorial - Tutorial Republic',
+            url: 'https://www.tutorialrepublic.com/symfony-tutorial/',
+          },
+          {
+            idLink: 9,
+            name: 'Symfony Tutorial - GeeksforGeeks',
+            url: 'https://www.geeksforgeeks.org/symfony-tutorial/',
+          },
         ],
       },
       {
-        idTheme: 12,
+        idTheme: 8,
         name: 'CakePHP',
         text: 'É um framework de aplicação web de código aberto. Ele segue o padrão de projeto Model-View-Controller (MVC) e é escrito na linguagem de programação PHP.',
         links: [
@@ -3443,10 +4126,20 @@ const links = [
             name: 'Coursera CakePHP Courses',
             url: 'https://www.coursera.org/courses?query=cakephp',
           },
+          {
+            idLink: 6,
+            name: 'CakePHP - Build fast, grow solid | PHP Framework | Home',
+            url: 'https://cakephp.org/',
+          },
+          {
+            idLink: 7,
+            name: 'CakePHP Tutorial - Tutorialspoint',
+            url: 'https://www.tutorialspoint.com/cakephp/index.htm',
+          },
         ],
       },
       {
-        idTheme: 13,
+        idTheme: 9,
         name: 'Ruby',
         text: 'É uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.',
         links: [
@@ -3475,10 +4168,26 @@ const links = [
             name: 'Coursera Ruby Courses',
             url: 'https://www.coursera.org/courses?query=ruby',
           },
+          {
+            idLink: 6,
+            name: 'Ruby Programming Language',
+            url: 'https://www.ruby-lang.org/en/',
+          },
+          {
+            idLink: 7,
+            name: 'Ruby Tutorial - Tutorialspoint',
+            url: 'https://www.tutorialspoint.com/ruby/index.htm',
+          },
+
+          {
+            idLink: 8,
+            name: 'Ruby Tutorial - GeeksforGeeks',
+            url: 'https://www.geeksforgeeks.org/ruby-programming-language/',
+          },
         ],
       },
       {
-        idTheme: 14,
+        idTheme: 10,
         name: 'Ruby on Rails',
         text: 'É um framework web escrito em Ruby que segue o padrão MVC (model, view, controller). Ele provê estruturas para um banco de dados, um web service e páginas web.',
         links: [
@@ -3507,10 +4216,35 @@ const links = [
             name: 'Coursera Ruby on Rails Courses',
             url: 'https://www.coursera.org/courses?query=ruby%20on%20rails',
           },
+          {
+            idLink: 6,
+            name: 'Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.',
+            url: 'https://rubyonrails.org/',
+          },
+          {
+            idLink: 7,
+            name: 'Ruby on Rails Tutorial (Rails 6) | Learn Web Development with Rails',
+            url: 'https://www.railstutorial.org/',
+          },
+          {
+            idLink: 8,
+            name: 'Ruby on Rails Tutorial: Learn Web Development with Rails (4th Edition) (Addison-Wesley Professional Ruby Series): Hartl, Michael: 9780134598628: Amazon.com: Books',
+            url: 'https://www.amazon.com/Ruby-Rails-Tutorial-Addison-Wesley-Professional/dp/0134598628',
+          },
+          {
+            idLink: 9,
+            name: 'Ruby on Rails Tutorial (Rails 5) | Learn Web Development with Rails',
+            url: 'https://www.railstutorial.org/book',
+          },
+          {
+            idLink: 10,
+            name: 'Ruby on Rails Tutorial (Rails 3) | Learn Web Development with Rails',
+            url: 'https://www.railstutorial.org/book',
+          },
         ],
       },
       {
-        idTheme: 15,
+        idTheme: 11,
         name: 'Sinatra',
         text: 'É uma biblioteca de software escrita em Ruby que fornece um domínio específico de linguagem para configurar aplicações web Rack.',
         links: [
@@ -3542,7 +4276,7 @@ const links = [
         ],
       },
       {
-        idTheme: 16,
+        idTheme: 12,
         name: 'Phoenix',
         text: 'É um framework web escrito em Elixir que implementa o padrão de arquitetura Model-View-Controller (MVC).',
         links: [
@@ -3571,10 +4305,15 @@ const links = [
             name: 'Coursera Phoenix Courses',
             url: 'https://www.coursera.org/courses?query=phoenix',
           },
+          {
+            idLink: 6,
+            name: 'Phoenix Framework - A productive web framework that does not compromise speed and maintainability.',
+            url: 'https://www.phoenixframework.org/',
+          },
         ],
       },
       {
-        idTheme: 17,
+        idTheme: 13,
         name: 'Django',
         text: 'É um framework web Python de alto nível que incentiva o desenvolvimento rápido e um design limpo e pragmático.',
         links: [
@@ -3603,6 +4342,26 @@ const links = [
             name: 'Coursera Django Courses',
             url: 'https://www.coursera.org/courses?query=django',
           },
+          {
+            idLink: 6,
+            name: 'Django - The Web framework for perfectionists with deadlines',
+            url: 'https://www.djangoproject.com/',
+          },
+          {
+            idLink: 7,
+            name: 'Django Tutorial - W3Schools',
+            url: 'https://www.w3schools.com/django/',
+          },
+          {
+            idLink: 8,
+            name: 'Django Tutorial - Tutorialspoint',
+            url: 'https://www.tutorialspoint.com/django/index.htm',
+          },
+          {
+            idLink: 9,
+            name: 'Django Tutorial - GeeksforGeeks',
+            url: 'https://www.geeksforgeeks.org/django-tutorial/',
+          },
         ],
       },
     ],
@@ -3613,7 +4372,96 @@ const links = [
     bgColor: '#C8A2C8',
     textColor: '#282A36',
     img: 'BancoDeDados.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'Fundamentos de Bancos de Dados',
+        text: 'Os fundamentos de bancos de dados abrangem a compreensão de conceitos básicos como modelos de dados, esquemas de bancos de dados, e linguagens de consulta.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução aos Bancos de Dados',
+            url: 'https://www.w3schools.com/sql/',
+          },
+          {
+            idLink: 2,
+            name: 'Modelos de Bancos de Dados',
+            url: 'https://en.wikipedia.org/wiki/Database_model',
+          },
+          {
+            idLink: 3,
+            name: 'Projeto de Banco de Dados',
+            url: 'https://en.wikipedia.org/wiki/Database_design',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'SQL e Bancos de Dados Relacionais',
+        text: 'SQL é a linguagem padrão para gerenciar e consultar bancos de dados relacionais. Aprender SQL é essencial para trabalhar com esses tipos de bancos de dados.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Tutorial de SQL',
+            url: 'https://www.codecademy.com/learn/learn-sql',
+          },
+          {
+            idLink: 2,
+            name: 'Conceitos Avançados de SQL',
+            url: 'https://sqlzoo.net/',
+          },
+          {
+            idLink: 3,
+            name: 'Otimização de Consultas SQL',
+            url: 'https://use-the-index-luke.com/',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'NoSQL e Bancos de Dados Não Relacionais',
+        text: 'Bancos de dados NoSQL, como MongoDB e Cassandra, são importantes para casos de uso que exigem escalabilidade e flexibilidade, comuns em big data e aplicações web em tempo real.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao NoSQL',
+            url: 'https://www.mongodb.com/nosql-explained',
+          },
+          {
+            idLink: 2,
+            name: 'Tipos de Bancos de Dados NoSQL',
+            url: 'https://en.wikipedia.org/wiki/NoSQL#Types',
+          },
+          {
+            idLink: 3,
+            name: 'MongoDB para Iniciantes',
+            url: 'https://university.mongodb.com/',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Data Warehousing e Business Intelligence',
+        text: 'Data warehousing envolve o armazenamento e análise de grandes quantidades de dados para suportar decisões de negócios. Ferramentas de business intelligence são usadas para processar esses dados.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Fundamentos de Data Warehousing',
+            url: 'https://www.snowflake.com/data-warehouse-guide/',
+          },
+          {
+            idLink: 2,
+            name: 'Introdução à Business Intelligence',
+            url: 'https://www.ibm.com/cloud/learn/business-intelligence',
+          },
+          {
+            idLink: 3,
+            name: 'Técnicas de Business Analytics',
+            url: 'https://www.tableau.com/learn/articles/business-intelligence',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 12,
@@ -3621,7 +4469,184 @@ const links = [
     bgColor: '#FFFDD0',
     textColor: '#282A36',
     img: 'Ferramentas.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'Visual Studio Code (VSCode)',
+        text: 'O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft, amplamente utilizado por programadores. Oferece suporte a várias linguagens de programação e ferramentas de desenvolvimento.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Visual Studio Code',
+            url: 'https://code.visualstudio.com/docs',
+          },
+          {
+            idLink: 2,
+            name: 'Extensões e Personalizações do VSCode',
+            url: 'https://marketplace.visualstudio.com/VSCode',
+          },
+          {
+            idLink: 3,
+            name: 'Dicas e Truques do VSCode',
+            url: 'https://code.visualstudio.com/docs/getstarted/tips-and-tricks',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Git e GitHub',
+        text: 'Git é um sistema de controle de versão distribuído, e o GitHub é uma plataforma de hospedagem de código-fonte e colaboração. Eles são fundamentais para o gerenciamento de código e colaboração em projetos de TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Começando com Git',
+            url: 'https://git-scm.com/book/en/v2/Getting-Started-Git-Basics',
+          },
+          {
+            idLink: 2,
+            name: 'Tutorial de GitHub',
+            url: 'https://guides.github.com/activities/hello-world/',
+          },
+          {
+            idLink: 3,
+            name: 'Melhores Práticas de Git',
+            url: 'https://opensource.com/article/18/1/10-tips-new-github-projects',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'Docker',
+        text: 'Docker é uma plataforma de software que permite a criação, teste e implantação de aplicações rapidamente através de containers. Os containers permitem que os aplicativos sejam executados de maneira confiável quando transferidos de um ambiente de computação para outro.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Docker',
+            url: 'https://www.docker.com/get-started',
+          },
+          {
+            idLink: 2,
+            name: 'Conceitos Básicos de Containers',
+            url: 'https://www.docker.com/resources/what-container',
+          },
+          {
+            idLink: 3,
+            name: 'Docker Hub e Repositórios',
+            url: 'https://hub.docker.com/',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Ferramentas de Monitoramento e Análise',
+        text: 'Ferramentas de monitoramento e análise, como Grafana e Prometheus, são usadas para monitorar a infraestrutura de TI e analisar o desempenho dos sistemas.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução à Grafana',
+            url: 'https://grafana.com/docs/grafana/latest/getting-started/',
+          },
+          {
+            idLink: 2,
+            name: 'Começando com Prometheus',
+            url: 'https://prometheus.io/docs/introduction/overview/',
+          },
+          {
+            idLink: 3,
+            name: 'Melhores Práticas de Monitoramento',
+            url: 'https://www.redhat.com/en/topics/monitoring',
+          },
+        ],
+      },
+      {
+        idTheme: 5,
+        name: 'Jenkins para Integração Contínua',
+        text: 'Jenkins é uma ferramenta de automação de código aberto usada principalmente para integração contínua e entrega contínua.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Jenkins',
+            url: 'https://www.jenkins.io/doc/',
+          },
+          {
+            idLink: 2,
+            name: 'Guia de Uso do Jenkins',
+            url: 'https://www.jenkins.io/doc/book/using/',
+          },
+          {
+            idLink: 3,
+            name: 'Melhores Práticas com Jenkins',
+            url: 'https://www.jenkins.io/doc/book/best-practices/',
+          },
+        ],
+      },
+      {
+        idTheme: 6,
+        name: 'Ansible para Automação de TI',
+        text: 'Ansible é uma ferramenta para automação de TI, que facilita tarefas como configuração de sistemas, implantação de software e orquestração de tarefas.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Ansible',
+            url: 'https://www.ansible.com/resources/get-started',
+          },
+          {
+            idLink: 2,
+            name: 'Documentação Oficial do Ansible',
+            url: 'https://docs.ansible.com/',
+          },
+          {
+            idLink: 3,
+            name: 'Melhores Práticas no Ansible',
+            url: 'https://www.ansible.com/blog/ansible-best-practices-essentials',
+          },
+        ],
+      },
+      {
+        idTheme: 7,
+        name: 'Terraform para Infraestrutura como Código',
+        text: 'Terraform é uma ferramenta de código aberto que permite a criação, modificação e versão de infraestrutura de forma segura e eficiente.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Introdução ao Terraform',
+            url: 'https://learn.hashicorp.com/terraform',
+          },
+          {
+            idLink: 2,
+            name: 'Guia de Início Rápido do Terraform',
+            url: 'https://www.terraform.io/intro/index.html',
+          },
+          {
+            idLink: 3,
+            name: 'Melhores Práticas com Terraform',
+            url: 'https://www.hashicorp.com/resources/terraform-best-practices-a-practitioners-guide',
+          },
+        ],
+      },
+      {
+        idTheme: 8,
+        name: 'Kubernetes para Orquestração de Containers',
+        text: 'Kubernetes é uma plataforma de código aberto para automação de implantação, escalonamento e operações de aplicações em clusters de hosts.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Começando com Kubernetes',
+            url: 'https://kubernetes.io/docs/tutorials/kubernetes-basics/',
+          },
+          {
+            idLink: 2,
+            name: 'Documentação Oficial do Kubernetes',
+            url: 'https://kubernetes.io/docs/home/',
+          },
+          {
+            idLink: 3,
+            name: 'Melhores Práticas no Uso de Kubernetes',
+            url: 'https://www.cncf.io/reports/kubernetes-best-practices-white-paper/',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 13,
@@ -3629,7 +4654,353 @@ const links = [
     bgColor: '#89CFF0',
     textColor: '#282A36',
     img: 'AcharTrabalho.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'LinkedIn',
+        text: 'LinkedIn é uma rede social profissional que conecta profissionais de todo o mundo e oferece uma plataforma para a busca de oportunidades de emprego em diversas áreas, incluindo TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do LinkedIn',
+            url: 'https://www.linkedin.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas para Buscar Emprego no LinkedIn',
+            url: 'https://www.linkedin.com/help/linkedin/answer/a507688',
+          },
+          {
+            idLink: 3,
+            name: 'LinkedIn Learning',
+            url: 'https://www.linkedin.com/learning/',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'Indeed',
+        text: 'Indeed é um dos maiores sites de busca de empregos do mundo, agregando listas de várias fontes e oferecendo ferramentas para encontrar vagas em TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Indeed',
+            url: 'https://www.indeed.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas de Busca de Emprego no Indeed',
+            url: 'https://www.indeed.com/career-advice/finding-a-job',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'Stack Overflow Jobs',
+        text: 'Stack Overflow Jobs é uma seção do famoso fórum de programação Stack Overflow, focada em oportunidades de emprego no setor de tecnologia, especialmente em programação e desenvolvimento de software.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página de Empregos do Stack Overflow',
+            url: 'https://stackoverflow.com/jobs',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas para Utilizar Stack Overflow Jobs',
+            url: 'https://stackoverflow.blog/2017/04/13/stack-overflow-jobs-guide/',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Glassdoor',
+        text: 'Glassdoor é um site onde funcionários e ex-funcionários avaliam anonimamente empresas e seus gerentes, além de oferecer listagens de empregos e salários.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Glassdoor',
+            url: 'https://www.glassdoor.com/index.htm',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas para Procurar Emprego no Glassdoor',
+            url: 'https://www.glassdoor.com/blog/tag/job-search-tips/',
+          },
+        ],
+      },
+      {
+        idTheme: 5,
+        name: 'AngelList',
+        text: 'AngelList é uma plataforma para startups, que também oferece um serviço para conectar profissionais de tecnologia com startups que estão contratando.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do AngelList',
+            url: 'https://angel.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Procurando Emprego em Startups',
+            url: 'https://angel.co/blog/how-to-get-a-job-at-a-startup',
+          },
+        ],
+      },
+      {
+        idTheme: 6,
+        name: 'Monster',
+        text: 'Monster é um dos maiores e mais antigos sites de busca de emprego, oferecendo uma vasta gama de oportunidades de trabalho em várias áreas, incluindo TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Monster',
+            url: 'https://www.monster.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas para Procurar Emprego no Monster',
+            url: 'https://www.monster.com/career-advice/',
+          },
+        ],
+      },
+      {
+        idTheme: 7,
+        name: 'Dice',
+        text: 'Dice é um site de carreiras especializado em oportunidades de emprego para profissionais de tecnologia e engenharia.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Dice',
+            url: 'https://www.dice.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Usar o Dice para Encontrar Empregos em TI',
+            url: 'https://www.dice.com/jobs/search',
+          },
+        ],
+      },
+      {
+        idTheme: 8,
+        name: 'CareerBuilder',
+        text: 'CareerBuilder é um site de emprego global que oferece listagens de emprego, ferramentas de busca de emprego e recursos para carreiras em diversas áreas, incluindo TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do CareerBuilder',
+            url: 'https://www.careerbuilder.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas de Carreira no CareerBuilder',
+            url: 'https://www.careerbuilder.com/advice',
+          },
+        ],
+      },
+      {
+        idTheme: 9,
+        name: 'SimplyHired',
+        text: 'SimplyHired é um motor de busca de emprego que agrega listagens de emprego de toda a web, incluindo listagens em TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do SimplyHired',
+            url: 'https://www.simplyhired.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Procurar Empregos no SimplyHired',
+            url: 'https://www.simplyhired.com/search',
+          },
+        ],
+      },
+      {
+        idTheme: 10,
+        name: 'TechCareers',
+        text: 'TechCareers é um site dedicado a oportunidades de carreira em tecnologia, oferecendo listagens de emprego, informações sobre empresas e conselhos de carreira para profissionais de TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do TechCareers',
+            url: 'https://www.techcareers.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Conselhos de Carreira em TI no TechCareers',
+            url: 'https://www.techcareers.com/articles',
+          },
+        ],
+      },
+      {
+        idTheme: 11,
+        name: 'Hired',
+        text: 'Hired é uma plataforma de recrutamento que conecta profissionais de tecnologia com empresas inovadoras, oferecendo uma abordagem única e personalizada para a busca de emprego.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Hired',
+            url: 'https://hired.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Funciona o Hired',
+            url: 'https://hired.com/how-it-works',
+          },
+        ],
+      },
+      {
+        idTheme: 12,
+        name: 'Freelancer',
+        text: 'Freelancer é um mercado online que conecta freelancers com projetos e empregos, especialmente adequado para profissionais de TI que procuram trabalhos autônomos ou projetos específicos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Freelancer',
+            url: 'https://www.freelancer.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Dicas para Encontrar Trabalhos Freelance em TI',
+            url: 'https://www.freelancer.com/community/articles',
+          },
+        ],
+      },
+      {
+        idTheme: 13,
+        name: 'Remote.co',
+        text: 'Remote.co é um recurso dedicado a empregos remotos, incluindo muitas oportunidades na área de tecnologia da informação.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Remote.co',
+            url: 'https://remote.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Encontrar Trabalho Remoto em TI',
+            url: 'https://remote.co/remote-jobs/technology/',
+          },
+        ],
+      },
+      {
+        idTheme: 14,
+        name: 'TechFetch',
+        text: 'TechFetch é um portal de empregos que se especializa em empregos de TI, conectando profissionais de tecnologia com empregadores em todo os Estados Unidos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do TechFetch',
+            url: 'https://www.techfetch.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Buscar Empregos de TI no TechFetch',
+            url: 'https://www.techfetch.com/it-jobs',
+          },
+        ],
+      },
+      {
+        idTheme: 15,
+        name: 'Upwork',
+        text: 'Upwork é uma das maiores plataformas de freelancers do mundo, oferecendo uma ampla gama de projetos e trabalhos autônomos em várias áreas de TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Upwork',
+            url: 'https://www.upwork.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Começar a Trabalhar no Upwork',
+            url: 'https://www.upwork.com/i/how-it-works/freelancer/',
+          },
+        ],
+      },
+      {
+        idTheme: 16,
+        name: 'Toptal',
+        text: 'Toptal é uma rede exclusiva de freelancers de alto nível em áreas como desenvolvimento de software, design, finanças e gerenciamento de projetos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Toptal',
+            url: 'https://www.toptal.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como se Tornar um Freelancer no Toptal',
+            url: 'https://www.toptal.com/talent/apply',
+          },
+        ],
+      },
+      {
+        idTheme: 17,
+        name: 'FlexJobs',
+        text: 'FlexJobs é especializado em trabalhos flexíveis e remotos, incluindo uma grande variedade de oportunidades na área de TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do FlexJobs',
+            url: 'https://www.flexjobs.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Buscar Empregos de TI no FlexJobs',
+            url: 'https://www.flexjobs.com/jobs/technology',
+          },
+        ],
+      },
+      {
+        idTheme: 18,
+        name: 'CyberCoders',
+        text: 'CyberCoders é uma plataforma de recrutamento líder que conecta profissionais de TI altamente qualificados com empresas inovadoras.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do CyberCoders',
+            url: 'https://www.cybercoders.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Oportunidades de TI no CyberCoders',
+            url: 'https://www.cybercoders.com/search/?searchterms=IT',
+          },
+        ],
+      },
+      {
+        idTheme: 19,
+        name: 'Fiverr',
+        text: 'Fiverr é uma plataforma de serviços freelance, onde profissionais de TI podem oferecer seus serviços em diversas categorias, desde desenvolvimento de software até suporte de TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Fiverr',
+            url: 'https://www.fiverr.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Vender Serviços de TI no Fiverr',
+            url: 'https://www.fiverr.com/start_selling',
+          },
+        ],
+      },
+      {
+        idTheme: 20,
+        name: 'Jobspresso',
+        text: 'Jobspresso é um site de empregos especializado em trabalhos remotos de alta qualidade, oferecendo várias vagas em tecnologia da informação.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Jobspresso',
+            url: 'https://jobspresso.co/',
+          },
+          {
+            idLink: 2,
+            name: 'Buscar Empregos de TI no Jobspresso',
+            url: 'https://jobspresso.co/job-category/tech/',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 14,
@@ -3637,7 +5008,348 @@ const links = [
     bgColor: '#FDBCB4',
     textColor: '#282A36',
     img: 'Comunidade.png',
-    resources: [],
+    resources: [
+      {
+        idTheme: 1,
+        name: 'Stack Overflow',
+        text: 'Stack Overflow é uma comunidade onde programadores de todos os níveis podem fazer perguntas e compartilhar suas experiências e conhecimentos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Stack Overflow',
+            url: 'https://stackoverflow.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Usar o Stack Overflow',
+            url: 'https://stackoverflow.com/tour',
+          },
+        ],
+      },
+      {
+        idTheme: 2,
+        name: 'GitHub',
+        text: 'GitHub não é apenas uma plataforma de hospedagem de código, mas também uma comunidade vibrante de desenvolvedores colaborando em projetos de todos os tipos.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do GitHub',
+            url: 'https://github.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Projetos no GitHub',
+            url: 'https://github.com/explore',
+          },
+        ],
+      },
+      {
+        idTheme: 3,
+        name: 'Reddit - Subreddits de Tecnologia',
+        text: 'Reddit possui vários subreddits dedicados à tecnologia e à programação, onde membros compartilham notícias, dicas e discutem sobre diversos tópicos de TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'r/programming',
+            url: 'https://www.reddit.com/r/programming/',
+          },
+          {
+            idLink: 2,
+            name: 'r/learnprogramming',
+            url: 'https://www.reddit.com/r/learnprogramming/',
+          },
+        ],
+      },
+      {
+        idTheme: 4,
+        name: 'Dev.to',
+        text: 'Dev.to é uma comunidade onde programadores compartilham artigos, tutoriais e ideias. É um espaço excelente para aprender e interagir com outros desenvolvedores.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Dev.to',
+            url: 'https://dev.to/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Conteúdos no Dev.to',
+            url: 'https://dev.to/trending',
+          },
+        ],
+      },
+      {
+        idTheme: 5,
+        name: 'Hacker News',
+        text: 'Hacker News é uma comunidade social de notícias focada em tecnologia e empreendedorismo, onde os usuários podem postar histórias e discutir sobre os mais recentes desenvolvimentos em TI.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Hacker News',
+            url: 'https://news.ycombinator.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Novas Submissões no Hacker News',
+            url: 'https://news.ycombinator.com/newest',
+          },
+        ],
+      },
+      {
+        idTheme: 6,
+        name: 'Meetup - Grupos de Tecnologia',
+        text: 'Meetup é uma plataforma que permite encontrar e criar grupos locais de interesse, incluindo muitos grupos focados em tecnologia e programação.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Meetup',
+            url: 'https://www.meetup.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Grupos de Tecnologia no Meetup',
+            url: 'https://www.meetup.com/topics/tech/',
+          },
+        ],
+      },
+      {
+        idTheme: 7,
+        name: 'Women Who Code',
+        text: 'Women Who Code é uma organização global dedicada a inspirar mulheres a terem sucesso em carreiras de tecnologia, oferecendo recursos, eventos e uma comunidade de apoio.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Women Who Code',
+            url: 'https://www.womenwhocode.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Eventos e Network do Women Who Code',
+            url: 'https://www.womenwhocode.com/networks',
+          },
+        ],
+      },
+      {
+        idTheme: 8,
+        name: 'CodePen',
+        text: 'CodePen é uma comunidade de desenvolvedores front-end e designers que compartilham e discutem seus projetos de HTML, CSS e JavaScript.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do CodePen',
+            url: 'https://codepen.io/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Projetos no CodePen',
+            url: 'https://codepen.io/picks',
+          },
+        ],
+      },
+      {
+        idTheme: 9,
+        name: 'DigitalOcean Community',
+        text: 'A comunidade da DigitalOcean oferece tutoriais, perguntas e respostas e discussões sobre desenvolvimento web, administração de sistemas e infraestrutura em nuvem.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial da Comunidade DigitalOcean',
+            url: 'https://www.digitalocean.com/community',
+          },
+          {
+            idLink: 2,
+            name: 'Tutoriais da DigitalOcean',
+            url: 'https://www.digitalocean.com/community/tutorials',
+          },
+        ],
+      },
+      {
+        idTheme: 10,
+        name: 'The Odin Project',
+        text: 'The Odin Project é uma comunidade e plataforma educacional gratuita que oferece um currículo completo para aprender desenvolvimento web.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do The Odin Project',
+            url: 'https://www.theodinproject.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Currículo do The Odin Project',
+            url: 'https://www.theodinproject.com/paths',
+          },
+        ],
+      },
+      {
+        idTheme: 11,
+        name: 'DZone',
+        text: 'DZone é uma comunidade online para programadores e profissionais de TI, oferecendo artigos, tutoriais e guias sobre uma ampla gama de tópicos de tecnologia.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do DZone',
+            url: 'https://dzone.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Guias e Artigos do DZone',
+            url: 'https://dzone.com/guides',
+          },
+        ],
+      },
+      {
+        idTheme: 12,
+        name: 'Hashnode',
+        text: 'Hashnode é uma plataforma de blogs para desenvolvedores, proporcionando um lugar para compartilhar conhecimentos, conectar-se com outros desenvolvedores e crescer na carreira.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Hashnode',
+            url: 'https://hashnode.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Blogs no Hashnode',
+            url: 'https://hashnode.com/explore',
+          },
+        ],
+      },
+      {
+        idTheme: 13,
+        name: 'GitLab Community',
+        text: 'A comunidade GitLab oferece um espaço para usuários do GitLab compartilharem experiências, colaborarem em projetos e discutirem práticas de DevOps e desenvolvimento de software.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página da Comunidade GitLab',
+            url: 'https://about.gitlab.com/community/',
+          },
+          {
+            idLink: 2,
+            name: 'Fóruns da Comunidade GitLab',
+            url: 'https://forum.gitlab.com/',
+          },
+        ],
+      },
+      {
+        idTheme: 14,
+        name: 'LeetCode',
+        text: 'LeetCode é uma plataforma para melhorar suas habilidades de codificação e preparação para entrevistas de programação, com uma comunidade ativa de solução de problemas.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do LeetCode',
+            url: 'https://leetcode.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Discussões no LeetCode',
+            url: 'https://leetcode.com/discuss/',
+          },
+        ],
+      },
+      {
+        idTheme: 15,
+        name: 'SitePoint',
+        text: 'SitePoint é uma comunidade online para desenvolvedores web, designers e criadores de conteúdo, com fóruns, livros, cursos e artigos sobre desenvolvimento web e design.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do SitePoint',
+            url: 'https://www.sitepoint.com/',
+          },
+          {
+            idLink: 2,
+            name: 'Fóruns do SitePoint',
+            url: 'https://www.sitepoint.com/community/',
+          },
+        ],
+      },
+      {
+        idTheme: 16,
+        name: 'CodersRank',
+        text: 'CodersRank é uma comunidade e plataforma que oferece um perfil de desenvolvimento abrangente para seus membros, ajudando-os a mostrar suas habilidades e conectar-se com oportunidades de carreira.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do CodersRank',
+            url: 'https://codersrank.io/',
+          },
+          {
+            idLink: 2,
+            name: 'Como Maximizar seu Perfil no CodersRank',
+            url: 'https://blog.codersrank.io/post/maximize-your-codersrank-profile/',
+          },
+        ],
+      },
+      {
+        idTheme: 17,
+        name: 'Frontend Mentor',
+        text: 'Frontend Mentor desafia os desenvolvedores a melhorar suas habilidades de codificação front-end, reconstruindo designs reais e recebendo feedback da comunidade.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Frontend Mentor',
+            url: 'https://www.frontendmentor.io/',
+          },
+          {
+            idLink: 2,
+            name: 'Desafios do Frontend Mentor',
+            url: 'https://www.frontendmentor.io/challenges',
+          },
+        ],
+      },
+      {
+        idTheme: 18,
+        name: 'FreeCodeCamp',
+        text: 'FreeCodeCamp é uma organização sem fins lucrativos que oferece um currículo gratuito para aprender a programar, com uma comunidade de milhões de aprendizes e desenvolvedores.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do FreeCodeCamp',
+            url: 'https://www.freecodecamp.org/',
+          },
+          {
+            idLink: 2,
+            name: 'Fórum do FreeCodeCamp',
+            url: 'https://forum.freecodecamp.org/',
+          },
+        ],
+      },
+      {
+        idTheme: 19,
+        name: 'Exercism',
+        text: 'Exercism é uma plataforma de aprendizado de codificação com uma comunidade ativa, oferecendo exercícios práticos em mais de 50 linguagens de programação.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Exercism',
+            url: 'https://exercism.io/',
+          },
+          {
+            idLink: 2,
+            name: 'Explorar Trilhas de Aprendizagem no Exercism',
+            url: 'https://exercism.io/tracks',
+          },
+        ],
+      },
+      {
+        idTheme: 20,
+        name: 'Women in Technology',
+        text: 'Women in Technology é uma comunidade dedicada a promover mulheres na área de TI, oferecendo suporte, recursos e oportunidades para crescimento profissional.',
+        links: [
+          {
+            idLink: 1,
+            name: 'Página Inicial do Women in Technology',
+            url: 'https://www.womenintechnology.org/',
+          },
+          {
+            idLink: 2,
+            name: 'Eventos e Programas do Women in Technology',
+            url: 'https://www.womenintechnology.org/events-programs',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 15,
