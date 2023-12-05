@@ -28,9 +28,7 @@ export default function App() {
         <ScrollToTopButton />
       </div>
       {uiState.modalExist && (
-        <div className="absolute z-30 top-0 left-0 w-full h-screen bg-black bg-opacity-50">
-          <Modal onModal={toggleModal} onCategory={changeCategory} />
-        </div>
+        <Modal onModal={toggleModal} onCategory={changeCategory} />
       )}
     </>
   );
